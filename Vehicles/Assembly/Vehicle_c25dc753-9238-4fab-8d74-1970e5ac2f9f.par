@@ -1,0 +1,106 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`F-Class, Sedan w/ 8-spd. Transmission_AudiA8`CS F-Class
+#VehCode Ind_Ind
+#CheckBox0 0    
+#CheckBox1 0    
+#CheckBox2 1    
+INSTALL_SPEED_CONTROLLER
+
+#RingCtrl0 3
+OPT_PT 3
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 0
+PARSFILE Steering\System2\StrSys2_55718f82-7712-4296-899b-f458675aadcb.par
+#BlueLink7 Steering`F-Class, Sedan: Power, R&P` CS F-Class` , Steering System`StrSys2_55718f82-7712-4296-899b-f458675aadcb
+
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_0b3ec92b-f3fd-472f-9ab5-b05fe99d40d2.par
+#BlueLink19 Suspension: Independent System Kinematics`F-Class, Sedan - Front Susp. Kinematics_AudiA8` CS F-Class` , Kinematics`KinInd_0b3ec92b-f3fd-472f-9ab5-b05fe99d40d2
+
+PARSFILE Suspensions\Compliance\CmpInd_b05c6295-56d0-4bdd-a2bc-549f5d116e48.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`F-Class, Sedan - Front Comp.` CS F-Class` , Compliance`CmpInd_b05c6295-56d0-4bdd-a2bc-549f5d116e48
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_c0aee3cf-de00-47e7-a950-7672d49197f6.par
+#BlueLink999 Tire`225/60 R18_AudiA8` CS Touring Tires` , Tire`Tire_c0aee3cf-de00-47e7-a950-7672d49197f6
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_c0aee3cf-de00-47e7-a950-7672d49197f6.par
+#BlueLink10 Tire`225/60 R18_AudiA8` CS Touring Tires` , Tire`Tire_c0aee3cf-de00-47e7-a950-7672d49197f6
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_a406f3f7-bb50-45ea-b2c8-2f6d84a4c311.par
+#BlueLink20 Suspension: Independent System Kinematics`F-Class, Sedan - Rear Susp. Kinematics_AudiA8` CS F-Class` , Kinematics`KinInd_a406f3f7-bb50-45ea-b2c8-2f6d84a4c311
+
+PARSFILE Suspensions\Compliance\CmpInd_7b3a469b-f00c-4a1b-864d-52d965e6e4f7.par
+#BlueLink17 Suspension: Independent Compliance, Springs, and Dampers`F-Class, Sedan - Rear Comp.` CS F-Class` , Compliance`CmpInd_7b3a469b-f00c-4a1b-864d-52d965e6e4f7
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_c0aee3cf-de00-47e7-a950-7672d49197f6.par
+#BlueLink999 Tire`225/60 R18_AudiA8` CS Touring Tires` , Tire`Tire_c0aee3cf-de00-47e7-a950-7672d49197f6
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_c0aee3cf-de00-47e7-a950-7672d49197f6.par
+#BlueLink999 Tire`225/60 R18_AudiA8` CS Touring Tires` , Tire`Tire_c0aee3cf-de00-47e7-a950-7672d49197f6
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_0a0c122f-1863-4ed9-962d-8873ee1c2273.par
+#BlueLink0 Vehicle: Sprung Mass`F-Class, Sedan Sprung Mass_AudiA8` CS F-Class` , Sprung Mass`SprMass_0a0c122f-1863-4ed9-962d-8873ee1c2273
+
+PARSFILE Aerodynamics\Aero_Main\Aero_be00d6ac-be15-4b65-ad3c-f6eb390f7f7e.par
+#BlueLink1 Aerodynamics: Basic`F-Class, Sedan Aero` CS F-Class` , Aerodynamics`Aero_be00d6ac-be15-4b65-ad3c-f6eb390f7f7e
+
+R_REAR_DRIVE_SC 1
+PMAX_SC 285
+PARSFILE Powertrain\4wd\4WD_64133fec-ca47-4c1f-bd3d-5827b0d72eae.par
+#BlueLink5 Powertrain: 4-Wheel Drive`300 kW, 8-spd., 2.65 Ratio` ` , Powertrain`4WD_64133fec-ca47-4c1f-bd3d-5827b0d72eae
+
+PARSFILE Brakes\4W_System\Brk4W_d6e9994d-bed9-4a09-b67d-ea74fbaacb09.par
+#BlueLink6 Brakes: Four-Wheel System`F-Class, Sedan w/ ABS` CS F-Class` , Brake System`Brk4W_d6e9994d-bed9-4a09-b67d-ea74fbaacb09
+
+PARSFILE Animator\Vehicles\AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`F-Class, Sedan` F-Class Vehicles` , Vehicle 3D Shape`AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7.png
+
+#EMBEDDED_NOTES
+#Generic F-Class sedan with SLA front and 5-Link rear suspension.
+#
+#F-Class vehicles include the Audi A8, Bentley Continental, Maserati Quattroporte, Mercedes Benz S-Class, Rolls-Royce Phantom, and Toyota Crown.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { CS F-Class } F-Class, Sedan w/ 8-spd. Transmission_AudiA8
+#Library : Vehicle: Assembly
+#DataSet : F-Class, Sedan w/ 8-spd. Transmission_AudiA8
+#Category: CS F-Class
+#FileID  : Vehicle_c25dc753-9238-4fab-8d74-1970e5ac2f9f
+#Product : CarSim 2020.0
+#VehCode Ind_Ind
+
+END

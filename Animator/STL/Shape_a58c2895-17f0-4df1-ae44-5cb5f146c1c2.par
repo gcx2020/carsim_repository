@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Vehicle Shadow Shape`Vehicle Shadow
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\vehicle_shadows\shadow.obj
+#ENDMYellow
+
+SET_COLOR 0.125 0.125 0.125
+X_REF_LENGTH 2690
+Y_REF_LENGTH 1900
+Z_REF_LENGTH 1220
+*TRANSPARENCY 0.8
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+set_transparency 0.8
+#MiscYellow0
+tranclucent_fix on
+#ENDMYellow
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_a58c2895-17f0-4df1-ae44-5cb5f146c1c2.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Vehicle Shadow } Vehicle Shadow Shape
+#Library : Animator: Shape File Link
+#DataSet : Vehicle Shadow Shape
+#Category: Vehicle Shadow
+#FileID  : Shape_a58c2895-17f0-4df1-ae44-5cb5f146c1c2
+#Product : CarSim 2020.0
+#VehCode Shape File
+
+END

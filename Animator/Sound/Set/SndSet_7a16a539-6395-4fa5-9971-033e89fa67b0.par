@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Animator: Sound Set`Gasoline Engine Vehicle`General Vehicle Sounds
+
+PARSFILE Animator\Sound\Sample\SndSmp_4d7e778c-2125-4ad5-be45-0168bdc47528.par
+#BlueLink0 Animator: Sound Sample`4 Cyl. - Power Off` Gas Engine Sounds` , Sample 1`SndSmp_4d7e778c-2125-4ad5-be45-0168bdc47528
+
+
+PARSFILE Animator\Sound\Sample\SndSmp_4a8d24e6-3399-47dc-9bb1-379ea633963a.par
+#BlueLink1 Animator: Sound Sample`4 Cyl. - Power On` Gas Engine Sounds` , Sample 2`SndSmp_4a8d24e6-3399-47dc-9bb1-379ea633963a
+
+
+PARSFILE Animator\Sound\Sample\SndSmp_10e59797-9993-4228-b401-95c72f722186.par
+#BlueLink2 Animator: Sound Sample`Wind Noise` Wind Noise` , Sample 3`SndSmp_10e59797-9993-4228-b401-95c72f722186
+
+
+
+
+
+
+
+
+
+
+
+#EMBEDDED_NOTES
+#The sound samples are based on a 4 cylinder engine. The frequency can be scaled for a different number of cylinders by setting the ncyls parameter here.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Sound Set; { General Vehicle Sounds } Gasoline Engine Vehicle
+#Library : Animator: Sound Set
+#DataSet : Gasoline Engine Vehicle
+#Category: General Vehicle Sounds
+#FileID  : SndSet_7a16a539-6395-4fa5-9971-033e89fa67b0
+#Product : CarSim 2020.0
+#VehCode Sound Set
+
+END

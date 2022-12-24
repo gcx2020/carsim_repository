@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`0 deg. Azimuth, 1 deg. El., Veh. Ref.`Vehicle Reference
+#RingCtrl1 0
+
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 1    
+
+GHOST_COUNT 0
+SET_CAMERA_REFERENCE_FRAME Frame_4784094f-08e1-404b-b742-340ae23fcffa
+PARSFILE Animator\Frames\Frame_4784094f-08e1-404b-b742-340ae23fcffa.par
+#BlueLink0 Animator: Reference Frame`Camera Tracking X-Y-Z-Yaw` Cameras` , Reference frame for outside camera`Frame_4784094f-08e1-404b-b742-340ae23fcffa
+
+SET_LOOKPOINT_REFERENCE_FRAME Frame_4784094f-08e1-404b-b742-340ae23fcffa
+SET_LOOKPOINT_X 0
+SET_LOOKPOINT_Y 0
+SET_LOOKPOINT_Z 1.2
+SET_AZIMUTH 0
+SET_ELEVATION 1
+SET_DISTANCE 37
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X 0
+*SET_LOOKPOINT_Y 0
+*SET_LOOKPOINT_Z 1.2
+*SET_AZIMUTH 0
+*SET_ELEVATION 1
+*SET_DISTANCE 37
+GHOST_COUNT 0
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 18.6
+SUN_POSITION 500 500 1000
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Vehicle Reference } 0 deg. Azimuth, 1 deg. El., Veh. Ref.
+#Library : Animator: Camera Setup
+#DataSet : 0 deg. Azimuth, 1 deg. El., Veh. Ref.
+#Category: Vehicle Reference
+#FileID  : Camera_f672fe6b-6162-4c2f-8df7-54285c2c5a0f
+#Product : CarSim 2020.0
+#VehCode Camera
+
+END

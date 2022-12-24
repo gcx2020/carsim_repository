@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`European Sedan: Interior Trim`CS European Sedan
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\interior_trim.obj
+#ENDMYellow
+
+SET_COLOR 0.314 0.314 0.314
+*SPECULAR 0.3
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_1e1d097c-c1ab-498a-a67e-e726af1a87d5.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Interior Trim
+#Library : Animator: Shape File Link
+#DataSet : European Sedan: Interior Trim
+#Category: CS European Sedan
+#FileID  : Shape_1e1d097c-c1ab-498a-a67e-e726af1a87d5
+#Product : CarSim 2020.0
+#VehCode Shape File
+
+END

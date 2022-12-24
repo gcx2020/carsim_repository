@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Euro Sedan Tire`Tires
+*X_REF_LENGTH 291
+*Y_REF_LENGTH 195
+*Z_REF_LENGTH 291
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_b46bb8ca-2d76-4ce9-9459-7ed6afac0407.png
+PARSFILE Animator\STL\Shape_2905a7a9-2ebe-425c-855a-2b6e74d0b58f.par
+#BlueLink0 Animator: Shape File Link`Euro. Sedan Tire` Tires` , Shape File`Shape_2905a7a9-2ebe-425c-855a-2b6e74d0b58f
+
+PARSFILE Animator\STL\Shape_3dafe263-b4dc-46a2-bb2e-95660b50dd2e.par
+#BlueLink1 Animator: Shape File Link`Euro. Sedan Wheel` Tires` , Shape File`Shape_3dafe263-b4dc-46a2-bb2e-95660b50dd2e
+
+PARSFILE Animator\STL\Shape_21a8656e-547d-4831-954d-38d95a9dff2b.par
+#BlueLink2 Animator: Shape File Link`Euro. Sedan Stripe` Tires` , Shape File`Shape_21a8656e-547d-4831-954d-38d95a9dff2b
+
+x_ref_length 291
+y_ref_length 195
+z_ref_length 291
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+#Library : Animator: Shape Assembly
+#DataSet : Euro Sedan Tire
+#Category: Tires
+#FileID  : ShpGrp_b46bb8ca-2d76-4ce9-9459-7ed6afac0407
+#Product : CarSim 2020.0
+#VehCode Shape Assembly
+
+END

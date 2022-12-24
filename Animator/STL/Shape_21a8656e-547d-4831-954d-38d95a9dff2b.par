@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Euro. Sedan Stripe`Tires
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\tires\195_45R16\stripe.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_OFFSET_X 0
+SET_OFFSET_Y 0.01
+SET_OFFSET_Z 0.01
+*SPECULAR 0
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+SET_SPECULAR 0 0 0
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_21a8656e-547d-4831-954d-38d95a9dff2b.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Stripe
+#Library : Animator: Shape File Link
+#DataSet : Euro. Sedan Stripe
+#Category: Tires
+#FileID  : Shape_21a8656e-547d-4831-954d-38d95a9dff2b
+#Product : CarSim 2020.0
+#VehCode Shape File
+
+END

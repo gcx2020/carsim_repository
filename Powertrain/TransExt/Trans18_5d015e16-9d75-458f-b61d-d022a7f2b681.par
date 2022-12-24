@@ -1,0 +1,95 @@
+PARSFILE
+#FullDataName Powertrain: Transmission (18 Gears or CVT)`8-Speed Transmission`
+#RingCtrl0 8
+NGEARS 8
+#RingCtrl1 1
+OPT_SHIFT_INTERNAL 1
+#RingCtrl2 1
+OPT_TR_GEAR_INTERNAL 1
+#CheckBox0 0    
+R_GEAR_TR_REVERSE -2.176
+R_GEAR_TR(1) 4.596
+R_GEAR_TR(2) 2.724
+R_GEAR_TR(3) 1.864
+R_GEAR_TR(4) 1.464
+R_GEAR_TR(5) 1.231
+R_GEAR_TR(6) 1.0
+R_GEAR_TR(7) 0.824
+R_GEAR_TR(8) 0.685
+ITR_REVERSE 0.034
+ITR_NEUTRAL 0.034
+ITR(1) 0.037
+ITR(2) 0.034
+ITR(3) 0.042
+ITR(4) 0.04
+ITR(5) 0.04
+ITR(6) 0.04
+ITR(7) 0.04
+ITR(8) 0.04
+R_EFF_TR_F_REVERSE 0.9
+R_EFF_TR_F(1) 0.92
+R_EFF_TR_F(2) 0.92
+R_EFF_TR_F(3) 0.95
+R_EFF_TR_F(4) 0.95
+R_EFF_TR_F(5) 0.98
+R_EFF_TR_F(6) 0.99
+R_EFF_TR_F(7) 0.99
+R_EFF_TR_F(8) 0.99
+R_EFF_TR_R_REVERSE 0.9
+R_EFF_TR_R(1) 0.92
+R_EFF_TR_R(2) 0.92
+R_EFF_TR_R(3) 0.95
+R_EFF_TR_R(4) 0.95
+R_EFF_TR_R(5) 0.98
+R_EFF_TR_R(6) 0.99
+R_EFF_TR_R(7) 0.99
+R_EFF_TR_R(8) 0.99
+T_SHIFT 0.25
+
+
+igear 1
+PARSFILE Powertrain\Shift\Shift_72fbad62-bde3-4c65-88cc-be9eb1c78696.par
+#BlueLink0 Powertrain: Shift Schedule`8-speed, 1-2 Shift` 8-speed` , Shift schedule`Shift_72fbad62-bde3-4c65-88cc-be9eb1c78696
+
+
+igear 2
+PARSFILE Powertrain\Shift\Shift_5a1aaf8a-059a-4d50-abb5-bf25622f2012.par
+#BlueLink1 Powertrain: Shift Schedule`8-speed, 2-3 Shift` 8-speed` , Shift schedule`Shift_5a1aaf8a-059a-4d50-abb5-bf25622f2012
+
+
+igear 3
+PARSFILE Powertrain\Shift\Shift_c1f76f99-504b-4ad1-8fb4-8bcf7e5fe463.par
+#BlueLink2 Powertrain: Shift Schedule`8-speed, 3-4 Shift` 8-speed` , Shift schedule`Shift_c1f76f99-504b-4ad1-8fb4-8bcf7e5fe463
+
+
+igear 4
+PARSFILE Powertrain\Shift\Shift_191a9a9a-8b9f-4c50-820c-92a248c2276f.par
+#BlueLink3 Powertrain: Shift Schedule`8-speed, 4-5 Shift` 8-speed` , Shift schedule`Shift_191a9a9a-8b9f-4c50-820c-92a248c2276f
+
+
+igear 5
+PARSFILE Powertrain\Shift\Shift_0c72ff5d-d92b-4f84-b3a5-5ab80deb1dff.par
+#BlueLink4 Powertrain: Shift Schedule`8-speed, 5-6 Shift` 8-speed` , Shift schedule`Shift_0c72ff5d-d92b-4f84-b3a5-5ab80deb1dff
+
+
+igear 6
+PARSFILE Powertrain\Shift\Shift_c538b237-a528-4ba8-b996-bf1aa92a3dee.par
+#BlueLink5 Powertrain: Shift Schedule`8-speed, 6-7 Shift` 8-speed` , Shift schedule`Shift_c538b237-a528-4ba8-b996-bf1aa92a3dee
+
+
+igear 7
+PARSFILE Powertrain\Shift\Shift_1ec086d1-4637-44bf-a297-d5d90ab4ed1e.par
+#BlueLink6 Powertrain: Shift Schedule`8-speed, 7-8 Shift` 8-speed` , Shift schedule`Shift_1ec086d1-4637-44bf-a297-d5d90ab4ed1e
+
+
+igear 8
+
+LOG_ENTRY Used Dataset: Powertrain: Transmission (18 Gears or CVT); 8-Speed Transmission
+#Library : Powertrain: Transmission (18 Gears or CVT)
+#DataSet : 8-Speed Transmission
+#Category: 
+#FileID  : Trans18_5d015e16-9d75-458f-b61d-d022a7f2b681
+#Product : CarSim 2020.0
+#VehCode Transmission
+
+END

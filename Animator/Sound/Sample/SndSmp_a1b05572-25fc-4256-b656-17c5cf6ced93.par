@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Sound Sample`Wheelspin / Brake Lockup`Tire Sounds
+
+ADD_3D_SOUND Animator\Audio\Tire\Generic-Tire-01_Skid-01.wav
+#CheckBox0 1    
+LOOP_SOUND on
+
+#RingCtrl0 Default
+SOUND_AUTO_START Default
+
+SOUND_VOL_MULT 1.0
+SOUND_VOL_MIN 0.0
+SOUND_VOL_MAX 4.0
+SOUND_FREQ_MULT 1.0
+SOUND_FREQ_MIN 0.01
+SOUND_FREQ_MAX 1.0
+
+PARSFILE Animator\Sound\Modifier\SndMod_f3c220e4-3cc3-4009-82a4-ccaa1333ddc1.par
+#BlueLink0 Animator: Sound Modifier`Loudness: Longitudinal Force Effects` Wheelspin / Lockup Sound Modifiers` , Playback Modification 1`SndMod_f3c220e4-3cc3-4009-82a4-ccaa1333ddc1
+
+PARSFILE Animator\Sound\Modifier\SndMod_9b505384-1b5f-4d56-8a26-f99cd9a95cac.par
+#BlueLink1 Animator: Sound Modifier`Loudness: Longitudinal Speed Effects` Tire Speed Sound Modifiers` , Playback Modification 2`SndMod_9b505384-1b5f-4d56-8a26-f99cd9a95cac
+
+
+LOG_ENTRY Used Dataset: Animator: Sound Sample; { Tire Sounds } Wheelspin / Brake Lockup
+#Library : Animator: Sound Sample
+#DataSet : Wheelspin / Brake Lockup
+#Category: Tire Sounds
+#FileID  : SndSmp_a1b05572-25fc-4256-b656-17c5cf6ced93
+#Product : CarSim 2020.0
+#VehCode Sound Sample
+
+END

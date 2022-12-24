@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Animator: Sound Modifier`Loudness: Speed Effect`Wind Sound Modifiers
+
+#MiscYellow0
+define_parameter air_speed_ref 50; units = km/h;
+define_output v_mod3 = pow(vAir/air_speed_ref, 3.0);
+#ENDMYellow
+
+
+#RingCtrl0 VOLUME
+ADD_SOUND_MODIFIER VOLUME
+SOUNDMOD_OPERATION mult
+
+SOUNDMOD_INPUT_NAME v_mod3
+SOUNDMOD_INPUT_MIN 0.0
+SOUNDMOD_INPUT_LOW 1.0
+SOUNDMOD_INPUT_HIGH 2.0
+SOUNDMOD_INPUT_MAX 3.0
+SOUNDMOD_OUTPUT_MIN 0.0
+SOUNDMOD_OUTPUT_LOW 1.0
+SOUNDMOD_OUTPUT_HIGH 2.0
+SOUNDMOD_OUTPUT_MAX 3.0
+
+WRT_v_mod3
+ANI_v_mod3
+
+LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Wind Sound Modifiers } Loudness: Speed Effect
+#Library : Animator: Sound Modifier
+#DataSet : Loudness: Speed Effect
+#Category: Wind Sound Modifiers
+#FileID  : SndMod_59e0531b-dd39-45ad-ba0e-7a1d650b1244
+#Product : CarSim 2020.0
+#VehCode Sound Modifier
+
+END

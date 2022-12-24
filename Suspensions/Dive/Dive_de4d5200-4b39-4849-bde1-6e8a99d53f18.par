@@ -1,0 +1,62 @@
+PARSFILE
+#FullDataName Suspension: Dive Angle (Caster Change)`Front SLA - Dive Angle`SLA
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+SUSP_DIVE_COMBINE ADD
+
+#DiagramOne0
+SUSP_DIVE_TABLE SPLINE
+-70, 2.07166
+-60, 1.77237
+-50, 1.47431
+-40, 1.17742
+-30, 0.881618
+-20, 0.586832
+-10, 0.292987
+0, 0
+10, -0.292218
+20, -0.583766
+30, -0.874758
+40, -1.16532
+50, -1.45561
+60, -1.7458
+70, -2.03611
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+#DiagramOne0
+SUSP_DIVE_AXLE_TABLE SPLINE
+-70, 2.07166
+-60, 1.77237
+-50, 1.47431
+-40, 1.17742
+-30, 0.881618
+-20, 0.586832
+-10, 0.292987
+0, 0
+10, -0.292218
+20, -0.583766
+30, -0.874758
+40, -1.16532
+50, -1.45561
+60, -1.7458
+70, -2.03611
+ENDTABLE
+
+#EMBEDDED_NOTES
+#NOTE:  Sign convention of the CS 7.01b and earlier datasets was reversed and demonstrated a pro-dive suspension.  This dataset represents an anti-dive suspension.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Dive Angle (Caster Change); { SLA } Front SLA - Dive Angle
+#Library : Suspension: Dive Angle (Caster Change)
+#DataSet : Front SLA - Dive Angle
+#Category: SLA
+#FileID  : Dive_de4d5200-4b39-4849-bde1-6e8a99d53f18
+#Product : CarSim 2020.0
+#VehCode Dive
+
+END

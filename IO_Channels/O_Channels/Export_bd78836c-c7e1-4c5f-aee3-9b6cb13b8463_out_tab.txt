@@ -1,0 +1,618 @@
+ Keyword	Units	Type	Component	Legend Label
+AAx	rad/s2	Angular acceleration	Chassis motion	Roll acc. (body-fixed), vehicle	Vehicle roll (body-fixed)
+AAy	rad/s2	Angular acceleration	Chassis motion	Pitch acc. (body-fixed), vehicle	Vehicle pitch (body-fixed)
+AAy_L1	rad/s2	Angular acceleration	Wheels	Wheel L1 spin acceleration	Wheel L1 spin
+AAy_L2	rad/s2	Angular acceleration	Wheels	Wheel L2 spin acceleration	Wheel L2 spin
+AAy_R1	rad/s2	Angular acceleration	Wheels	Wheel R1 spin acceleration	Wheel R1 spin
+AAy_R2	rad/s2	Angular acceleration	Wheels	Wheel R2 spin acceleration	Wheel R2 spin
+AAz	rad/s2	Angular acceleration	Chassis motion	Yaw acc. (body-fixed), vehicle	Vehicle yaw (body-fixed)
+AA_Eng	rad/s2	Angular acceleration	Powertrain	Engine crankshaft angular accel.	Engine crankshaft
+AA_P	rad/s2	Angular acceleration	Chassis motion	Pitch accel. (Euler), vehicle	Vehicle pitch (Euler)
+AA_R	rad/s2	Angular acceleration	Chassis motion	Roll accel. (Euler), vehicle	Vehicle roll (Euler)
+AA_Y	rad/s2	Angular acceleration	Chassis motion	Yaw accel. (Euler), vehicle	Vehicle yaw (Euler)
+Alpha_L1	deg	Angle	Tires	Lateral slip angle, tire L1	Tire L1 lateral slip
+Alpha_L2	deg	Angle	Tires	Lateral slip angle, tire L2	Tire L2 lateral slip
+Alpha_R1	deg	Angle	Tires	Lateral slip angle, tire R1	Tire R1 lateral slip
+Alpha_R2	deg	Angle	Tires	Lateral slip angle, tire R2	Tire R2 lateral slip
+AlphL_L1	deg	Angle	Tires	Lateral slip (lagged), tire L1	Tire L1 slip (lagged)
+AlphL_L2	deg	Angle	Tires	Lateral slip (lagged), tire L2	Tire L2 slip (lagged)
+AlphL_R1	deg	Angle	Tires	Lateral slip (lagged), tire R1	Tire R1 slip (lagged)
+AlphL_R2	deg	Angle	Tires	Lateral slip (lagged), tire R2	Tire R2 slip (lagged)
+AStKP_L1	deg	Angle	Steering	Steering angle about kingpin L1	Steering about kingpin L1
+AStKP_L2	deg	Angle	Steering	Steering angle about kingpin L2	Steering about kingpin L2
+AStKP_R1	deg	Angle	Steering	Steering angle about kingpin R1	Steering about kingpin R1
+AStKP_R2	deg	Angle	Steering	Steering angle about kingpin R2	Steering about kingpin R2
+AVx	deg/s	Angular rate	Chassis motion	Roll rate (body-fixed), vehicle	Vehicle roll (body-fixed)
+AVx_L1	deg/s	Angular rate	Wheels	Roll rate, wheel L1	Roll rate, wheel L1
+AVx_L2	deg/s	Angular rate	Wheels	Roll rate, wheel L2	Roll rate, wheel L2
+AVx_R1	deg/s	Angular rate	Wheels	Roll rate, wheel R1	Roll rate, wheel R1
+AVx_R2	deg/s	Angular rate	Wheels	Roll rate, wheel R2	Roll rate, wheel R2
+AVx_S1	deg/s	Angular rate	Motion Sensors	Roll rate, sensor 1	Sensor 1 roll
+AVy	deg/s	Angular rate	Chassis motion	Pitch rate (body-fixed), vehicle	Vehicle pitch (body-fixed)
+AVy_L1	rpm	Driveline speed	Wheels	Wheel L1 spin	wheel L1
+AVy_L2	rpm	Driveline speed	Wheels	Wheel L2 spin	wheel L2
+AVy_R1	rpm	Driveline speed	Wheels	Wheel R1 spin	wheel R1
+AVy_R2	rpm	Driveline speed	Wheels	Wheel R2 spin	wheel R2
+AVy_S1	deg/s	Angular rate	Motion Sensors	Pitch rate, sensor 1	Sensor 1 pitch
+AVy_W_L1	deg/s	Angular rate	Wheels	Pitch rate, wheel L1	Pitch rate, wheel L1
+AVy_W_L2	deg/s	Angular rate	Wheels	Pitch rate, wheel L2	Pitch rate, wheel L2
+AVy_W_R1	deg/s	Angular rate	Wheels	Pitch rate, wheel R1	Pitch rate, wheel R1
+AVy_W_R2	deg/s	Angular rate	Wheels	Pitch rate, wheel R2	Pitch rate, wheel R2
+AVz	deg/s	Angular rate	Chassis motion	Yaw rate (body-fixed), vehicle	Vehicle yaw (body-fixed)
+AVz_L1	deg/s	Angular rate	Wheels	Yaw rate, wheel L1	Yaw rate, wheel L1
+AVz_L2	deg/s	Angular rate	Wheels	Yaw rate, wheel L2	Yaw rate, wheel L2
+AVz_R1	deg/s	Angular rate	Wheels	Yaw rate, wheel R1	Yaw rate, wheel R1
+AVz_R2	deg/s	Angular rate	Wheels	Yaw rate, wheel R2	Yaw rate, wheel R2
+AVz_S1	deg/s	Angular rate	Motion Sensors	Yaw rate, sensor 1	Sensor 1 yaw
+AV_D3f	rpm	Driveline speed	Powertrain	Transfer case front shaft spin	Transfer case front output shaft
+AV_D3r	rpm	Driveline speed	Powertrain	Transfer case rear shaft spin	Transfer case rear output shaft
+AV_DS_L1	rpm	Driveline speed	Powertrain	Left-front driveshaft speed	LF driveshaft
+AV_DS_L2	rpm	Driveline speed	Powertrain	Left-rear driveshaft speed	LR driveshaft
+AV_DS_R1	rpm	Driveline speed	Powertrain	Right-front driveshaft speed	RF driveshaft
+AV_DS_R2	rpm	Driveline speed	Powertrain	Right-rear driveshaft speed	RR driveshaft
+AV_Eng	rpm	Driveline speed	Powertrain	Engine crankshaft spin	Engine crankshaft
+AV_Gear1	deg/s	Angular rate	Steering	Axle 1 Pitman arm rotation rate	Axle 1 steering
+AV_Gear2	deg/s	Angular rate	Steering	Axle 2 Pitman arm rotation rate	Axle 2 steering
+AV_P	deg/s	Angular rate	Chassis motion	Pitch rate (Euler), vehicle	Vehicle pitch (Euler)
+AV_R	deg/s	Angular rate	Chassis motion	Roll rate (Euler), vehicle	Vehicle roll (Euler)
+AV_TC	rpm	Driveline speed	Powertrain	Trans input shaft spin	Transmission input shaft
+AV_Trans	rpm	Driveline speed	Powertrain	Trans. output shaft spin	Transmission output shaft
+AV_Y	deg/s	Angular rate	Chassis motion	Yaw rate (Euler), vehicle	Vehicle yaw (Euler)
+Ax	g	Longitudinal acceleration	Chassis motion	Long. acceleration, vehicle	Vehicle total CG
+Ax_Rd	g	Longitudinal acceleration	Chassis motion	Vehicle long. accel, road ref	Vehicle total CG
+Ax_SCrq	g	Longitudinal acceleration	Speed controller	Ax request from SC PI controller	Ax request from SC PI controller
+Ax_SM	g	Longitudinal acceleration	Chassis motion	Long. accel., vehicle SM CG	Vehicle SM CG
+Ay	g	Lateral acceleration	Chassis motion	Lateral acceleration, vehicle	Vehicle total CG
+Ay_Rd	g	Lateral acceleration	Chassis motion	Vehicle lat. accel, road ref	Vehicle total CG
+Ay_SM	g	Lateral acceleration	Chassis motion	Lateral accel., vehicle SM CG	Vehicle SM CG
+Az	g	Vertical acceleration	Chassis motion	Vertical acceleration, vehicle	Vehicle total CG
+Az_Rd	g	Vertical acceleration	Chassis motion	Vehicle vert. accel, road ref	Vehicle total CG
+Az_SM	g	Vertical acceleration	Chassis motion	Vertical accel., vehicle SM CG	Vehicle SM CG
+A_Comp	deg	Angle	Instruments	Angle for HUD compass	vehicle
+A_Gear1	deg	Angle	Steering	Axle 1 Pitman arm rotation	Axle 1 steering
+A_Gear2	deg	Angle	Steering	Axle 2 Pitman arm rotation	Axle 2 steering
+A_Speedo	deg	Angle	Instruments	Angle for speedometer needle	vehicle
+A_Tach	deg	Angle	Instruments	Angle for HUD tachometer needle	vehicle
+Beta	deg	Angle	Chassis motion	Vehicle slip angle	Vehicle slip
+BetaAir	deg	Angle	Aerodynamics	Vehicle aero. slip angle	Vehicle aerodynamic slip
+BetaR	deg/s	Angular rate	Chassis motion	Vehicle slip angle rate	Vehicle slip
+BetaRd	deg	Angle	Chassis motion	Vehicle slip rel. to road ref	Vehicle slip rel. to road ref
+BetaRdR	deg/s	Angular rate	Chassis motion	Vehicle slip rate rel. to road	Vehicle slip
+Bk_Boost	mm	Displacement	Brakes	Brake booster displacement	Brake Booster
+Bk_Pedal	mm	Displacement	Brakes	Brake pedal displacement	Brake Pedal
+Bk_Stat	-	Boolean	Brakes	Brake apply status	Brake Control
+CamberL1	deg	Angle	Suspensions	Camber angle, wheel L1	Wheel camber L1
+CamberL2	deg	Angle	Suspensions	Camber angle, wheel L2	Wheel camber L2
+CamberR1	deg	Angle	Suspensions	Camber angle, wheel R1	Wheel camber R1
+CamberR2	deg	Angle	Suspensions	Camber angle, wheel R2	Wheel camber R2
+CamUSL1	deg	Angle	Suspensions	Camber (unsteered whl) L1	Wheel camber L1
+CamUSL2	deg	Angle	Suspensions	Camber (unsteered whl) L2	Wheel camber L2
+CamUSR1	deg	Angle	Suspensions	Camber (unsteered whl) R1	Wheel camber R1
+CamUSR2	deg	Angle	Suspensions	Camber (unsteered whl) R2	Wheel camber R2
+Clt_D1_2	-	Clutch control	Powertrain	Front diff. 2nd clutch control	Front diff. second clutch
+Clt_D2_2	-	Clutch control	Powertrain	Rear diff. 2nd clutch control	Rear diff. second clutch
+Clt_D3_2	-	Clutch control	Powertrain	Trans. case, 2nd clutch control	Transfer case second clutch
+ClutchD1	-	Clutch control	Powertrain	Front diff. clutch control	Front differential clutch
+ClutchD2	-	Clutch control	Powertrain	Rear diff. clutch control	Rear differential clutch
+ClutchD3	-	Clutch control	Powertrain	Transfer case clutch control	Transfer case clutch
+ClutchL1	-	Clutch control	Powertrain	Front left whl. clutch control	Front left wheel clutch
+ClutchL2	-	Clutch control	Powertrain	Rear left whl. clutch control	Rear left wheel clutch
+ClutchR1	-	Clutch control	Powertrain	Front right whl. clutch control	Front right wheel clutch
+ClutchR2	-	Clutch control	Powertrain	Rear right whl. clutch control	Rear right wheel clutch
+ClutchTr	-	Clutch control	Powertrain	Transmission clutch control	Transmission clutch
+cl_stat	-	Boolean	Powertrain	Clutch locked state	Clutch
+CmpAD_L1	g	Compression acceleration	Suspensions	L1 damper compression accel.	L1 damper
+CmpAD_L2	g	Compression acceleration	Suspensions	L2 damper compression accel.	L2 damper
+CmpAD_R1	g	Compression acceleration	Suspensions	R1 damper compression accel.	R1 damper
+CmpAD_R2	g	Compression acceleration	Suspensions	R2 damper compression accel.	R2 damper
+CmpD_L1	mm	Compression	Suspensions	L1 damper compression	L1 damper
+CmpD_L2	mm	Compression	Suspensions	L2 damper compression	L2 damper
+CmpD_R1	mm	Compression	Suspensions	R1 damper compression	R1 damper
+CmpD_R2	mm	Compression	Suspensions	R2 damper compression	R2 damper
+CmpJStL1	mm	Compression	Suspensions	L1 susp jounce stop compr.	L1 jounce stop
+CmpJStL2	mm	Compression	Suspensions	L2 susp jounce stop compr.	L2 jounce stop
+CmpJStR1	mm	Compression	Suspensions	R1 susp jounce stop compr.	R1 jounce stop
+CmpJStR2	mm	Compression	Suspensions	R2 susp jounce stop compr.	R2 jounce stop
+CmpRD_L1	mm/s	Compression rate	Suspensions	L1 damper compression rate	L1 damper
+CmpRD_L2	mm/s	Compression rate	Suspensions	L2 damper compression rate	L2 damper
+CmpRD_R1	mm/s	Compression rate	Suspensions	R1 damper compression rate	R1 damper
+CmpRD_R2	mm/s	Compression rate	Suspensions	R2 damper compression rate	R2 damper
+CmpRStL1	mm	Compression	Suspensions	L1 susp rebound stop compr.	L1 rebound stop
+CmpRStL2	mm	Compression	Suspensions	L2 susp rebound stop compr.	L2 rebound stop
+CmpRStR1	mm	Compression	Suspensions	R1 susp rebound stop compr.	R1 rebound stop
+CmpRStR2	mm	Compression	Suspensions	R2 susp rebound stop compr.	R2 rebound stop
+CmpS_L1	mm	Compression	Suspensions	L1 spring compression	L1 spring
+CmpS_L2	mm	Compression	Suspensions	L2 spring compression	L2 spring
+CmpS_R1	mm	Compression	Suspensions	R1 spring compression	R1 spring
+CmpS_R2	mm	Compression	Suspensions	R2 spring compression	R2 spring
+CmpT_L1	mm	Compression	Tires	Compression, L1 tire	L1 tire
+CmpT_L2	mm	Compression	Tires	Compression, L2 tire	L2 tire
+CmpT_R1	mm	Compression	Tires	Compression, R1 tire	R1 tire
+CmpT_R2	mm	Compression	Tires	Compression, R2 tire	R2 tire
+dZdXair	-	Ground slope	Ground and road	X slope at road aero reference	X slope: road refence frame
+dZdX_L1	-	Ground slope	Ground and road	Ground X slope under tire L1	X slopeL1
+dZdX_L2	-	Ground slope	Ground and road	Ground X slope under tire L2	X slopeL2
+dZdX_R1	-	Ground slope	Ground and road	Ground X slope under tire R1	X slopeR1
+dZdX_R2	-	Ground slope	Ground and road	Ground X slope under tire R2	X slopeR2
+dZdYair	-	Ground slope	Ground and road	Y slope at road aero reference	Y slope: road refence frame
+dZdY_L1	-	Ground slope	Ground and road	Ground Y slope under tire L1	Y slopeL1
+dZdY_L2	-	Ground slope	Ground and road	Ground Y slope under tire L2	Y slopeL2
+dZdY_R1	-	Ground slope	Ground and road	Ground Y slope under tire R1	Y slopeR1
+dZdY_R2	-	Ground slope	Ground and road	Ground Y slope under tire R2	Y slopeR2
+Event	-	Count	Time	Running count of events	Event
+FbkB_In	N	Force	Brakes	Brake booster input force	Brake Booster
+FbkB_Out	N	Force	Brakes	Brake booster output force	Brake Booster
+Fd_L1	N	Force	Suspensions	L1 damper force (compressive)	L1 damper
+Fd_L2	N	Force	Suspensions	L2 damper force (compressive)	L2 damper
+Fd_R1	N	Force	Suspensions	R1 damper force (compressive)	R1 damper
+Fd_R2	N	Force	Suspensions	R2 damper force (compressive)	R2 damper
+FJSt_L1	N	Force	Suspensions	L1 susp jounce stop force	L1 jounce stop
+FJSt_L2	N	Force	Suspensions	L2 susp jounce stop force	L2 jounce stop
+FJSt_R1	N	Force	Suspensions	R1 susp jounce stop force	R1 jounce stop
+FJSt_R2	N	Force	Suspensions	R2 susp jounce stop force	R2 jounce stop
+FRSt_L1	N	Force	Suspensions	L1 susp rebound stop force	L1 rebound stop
+FRSt_L2	N	Force	Suspensions	L2 susp rebound stop force	L2 rebound stop
+FRSt_R1	N	Force	Suspensions	R1 susp rebound stop force	R1 rebound stop
+FRSt_R2	N	Force	Suspensions	R2 susp rebound stop force	R2 rebound stop
+FsExt_L1	N	Force	Suspensions	L1Ext spring force (comp.)	L1Ext spring (comp.)
+FsExt_L2	N	Force	Suspensions	L2Ext spring force (comp.)	L2Ext spring (comp.)
+FsExt_R1	N	Force	Suspensions	R1Ext spring force (comp.)	R1Ext spring (comp.)
+FsExt_R2	N	Force	Suspensions	R2Ext spring force (comp.)	R2Ext spring (comp.)
+Fs_L1	N	Force	Suspensions	L1 spring force (comp.)	L1 spring (comp.)
+Fs_L2	N	Force	Suspensions	L2 spring force (comp.)	L2 spring (comp.)
+Fs_R1	N	Force	Suspensions	R1 spring force (comp.)	R1 spring (comp.)
+Fs_R2	N	Force	Suspensions	R2 spring force (comp.)	R2 spring (comp.)
+FullStep	-	Boolean	Time	Integrator full-step status	Integrator full-step status
+FxExL1	N	Force	External actions	External FxExL1	Suspension
+FxExL2	N	Force	External actions	External FxExL2	Suspension
+FxExR1	N	Force	External actions	External FxExR1	Suspension
+FxExR2	N	Force	External actions	External FxExR2	Suspension
+FxGExL1	N	Force	External actions	External FxGExL1	Suspension
+FxGExL2	N	Force	External actions	External FxGExL2	Suspension
+FxGExR1	N	Force	External actions	External FxGExR1	Suspension
+FxGExR2	N	Force	External actions	External FxGExR2	Suspension
+Fx_A1	N	Force	Tires	Axle 1 longitudinal tire force	Axle 1 longitudinal tire force
+Fx_A2	N	Force	Tires	Axle 2 longitudinal tire force	Axle 2 longitudinal tire force
+Fx_Air	N	Force	Aerodynamics	Vehicle long. aero. force	Vehicle aerodynamic X
+Fx_L1	N	Force	Tires	Tire L1 longitudinal force	Tire L1 longitudinal
+Fx_L2	N	Force	Tires	Tire L2 longitudinal force	Tire L2 longitudinal
+Fx_R1	N	Force	Tires	Tire R1 longitudinal force	Tire R1 longitudinal
+Fx_R2	N	Force	Tires	Tire R2 longitudinal force	Tire R2 longitudinal
+Fx_Wc_L1	N	Force	Wheels	Tire Fx at wheel center L1	Tire Fx at wheel center L1
+Fx_Wc_L2	N	Force	Wheels	Tire Fx at wheel center L2	Tire Fx at wheel center L2
+Fx_Wc_R1	N	Force	Wheels	Tire Fx at wheel center R1	Tire Fx at wheel center R1
+Fx_Wc_R2	N	Force	Wheels	Tire Fx at wheel center R2	Tire Fx at wheel center R2
+FyExL1	N	Force	External actions	External FyExL1	Suspension
+FyExL2	N	Force	External actions	External FyExL2	Suspension
+FyExR1	N	Force	External actions	External FyExR1	Suspension
+FyExR2	N	Force	External actions	External FyExR2	Suspension
+FyGExL1	N	Force	External actions	External FyGExL1	Suspension
+FyGExL2	N	Force	External actions	External FyGExL2	Suspension
+FyGExR1	N	Force	External actions	External FyGExR1	Suspension
+FyGExR2	N	Force	External actions	External FyGExR2	Suspension
+Fy_A1	N	Force	Tires	Axle 1 lateral tire force	Axle 1 lateral tire force
+Fy_A2	N	Force	Tires	Axle 2 lateral tire force	Axle 2 lateral tire force
+Fy_Air	N	Force	Aerodynamics	Vehicle lat. aero. force	Vehicle aerodynamic Y
+Fy_L1	N	Force	Tires	Tire L1 lateral force	Tire L1 lateral
+Fy_L2	N	Force	Tires	Tire L2 lateral force	Tire L2 lateral
+Fy_R1	N	Force	Tires	Tire R1 lateral force	Tire R1 lateral
+Fy_R2	N	Force	Tires	Tire R2 lateral force	Tire R2 lateral
+Fy_Wc_L1	N	Force	Wheels	Tire Fy at wheel center L1	Tire Fy at wheel center L1
+Fy_Wc_L2	N	Force	Wheels	Tire Fy at wheel center L2	Tire Fy at wheel center L2
+Fy_Wc_R1	N	Force	Wheels	Tire Fy at wheel center R1	Tire Fy at wheel center R1
+Fy_Wc_R2	N	Force	Wheels	Tire Fy at wheel center R2	Tire Fy at wheel center R2
+FzExL1	N	Force	External actions	External FzExL1	Suspension
+FzExL2	N	Force	External actions	External FzExL2	Suspension
+FzExR1	N	Force	External actions	External FzExR1	Suspension
+FzExR2	N	Force	External actions	External FzExR2	Suspension
+FzGExL1	N	Force	External actions	External FzGExL1	Suspension
+FzGExL2	N	Force	External actions	External FzGExL2	Suspension
+FzGExR1	N	Force	External actions	External FzGExR1	Suspension
+FzGExR2	N	Force	External actions	External FzGExR2	Suspension
+Fz_A1	N	Force	Tires	Axle 1 vertical tire force	Axle 1 vertical tire force
+Fz_A2	N	Force	Tires	Axle 2 vertical tire force	Axle 2 vertical tire force
+Fz_Air	N	Force	Aerodynamics	Vehicle vert. aero. force	Vehicle aerodynamic Z
+Fz_L1	N	Force	Tires	Tire L1 vertical force	Tire L1 vertical
+Fz_L2	N	Force	Tires	Tire L2 vertical force	Tire L2 vertical
+Fz_R1	N	Force	Tires	Tire R1 vertical force	Tire R1 vertical
+Fz_R2	N	Force	Tires	Tire R2 vertical force	Tire R2 vertical
+Fz_Wc_L1	N	Force	Wheels	Tire Fz at wheel center L1	Tire Fz at wheel center L1
+Fz_Wc_L2	N	Force	Wheels	Tire Fz at wheel center L2	Tire Fz at wheel center L2
+Fz_Wc_R1	N	Force	Wheels	Tire Fz at wheel center R1	Tire Fz at wheel center R1
+Fz_Wc_R2	N	Force	Wheels	Tire Fz at wheel center R2	Tire Fz at wheel center R2
+F_Boost1	N	Force	Steering	Axle 1 steering boost force	Axle 1 power steering
+F_Boost2	N	Force	Steering	Axle 2 steering boost force	Axle 2 power steering
+F_Pedal	N	Force	Brakes	Brake pedal force	Brake Pedal
+Gamma_L1	deg	Angle	Tires	Inclination angle, tire L1	Tire L1 inclination
+Gamma_L2	deg	Angle	Tires	Inclination angle, tire L2	Tire L2 inclination
+Gamma_R1	deg	Angle	Tires	Inclination angle, tire R1	Tire R1 inclination
+Gamma_R2	deg	Angle	Tires	Inclination angle, tire R2	Tire R2 inclination
+GearStat	-	Gear	Powertrain	Transmission gear status	Transmission gear status
+Gear_CL	-	Gear	Powertrain	Closed-loop transmission gear	Closed-loop transmission gear
+Gear_OL	-	Gear	Powertrain	Open-loop transmission gear	Open-loop transmission gear
+GPSlongA	deg	GPS longitude	Chassis motion	GPS absolute longitude	Vehicle
+GPS_Lat	deg	GPS latitude	Chassis motion	GPS relative latitude	Vehicle
+GPS_LatA	deg	GPS latitude	Chassis motion	GPS absolute latitude	Vehicle
+GPS_Long	deg	GPS longitude	Chassis motion	GPS relative longitude	Vehicle
+ID_Event	-	ID number	Database	ID number of event	ID of event
+ID_Run	-	ID number	Database	ID number of run	ID of run
+Ispin_Tr	kg-m2	inertia	Powertrain	Transmission spin inertia	Transmission spin inertia
+Iw_Dr_L1	kg-m2	Inertia	Powertrain	Driveline inertia for wheel L1	Drive wheel L1
+Iw_Dr_L2	kg-m2	Inertia	Powertrain	Driveline inertia for wheel L2	Drive wheel L2
+Iw_Dr_R1	kg-m2	Inertia	Powertrain	Driveline inertia for wheel R1	Drive wheel R1
+Iw_Dr_R2	kg-m2	Inertia	Powertrain	Driveline inertia for wheel R2	Drive wheel R2
+Jnc_L1	mm	Compression	Suspensions	Wheel L1 jounce (compression)	Wheel L1 jounce
+Jnc_L2	mm	Compression	Suspensions	Wheel L2 jounce (compression)	Wheel L2 jounce
+Jnc_R1	mm	Compression	Suspensions	Wheel R1 jounce (compression)	Wheel R1 jounce
+Jnc_R2	mm	Compression	Suspensions	Wheel R2 jounce (compression)	Wheel R2 jounce
+Kappa_L1	-	Dimensionless ratio	Tires	Longitudinal slip, tire L1	Tire L1 long. slip
+Kappa_L2	-	Dimensionless ratio	Tires	Longitudinal slip, tire L2	Tire L2 long. slip
+Kappa_R1	-	Dimensionless ratio	Tires	Longitudinal slip, tire R1	Tire R1 long. slip
+Kappa_R2	-	Dimensionless ratio	Tires	Longitudinal slip, tire R2	Tire R2 long. slip
+KappL_L1	-	Dimensionless ratio	Tires	Long. slip (lagged), tire L1	Tire L1 long. slip (lagged)
+KappL_L2	-	Dimensionless ratio	Tires	Long. slip (lagged), tire L2	Tire L2 long. slip (lagged)
+KappL_R1	-	Dimensionless ratio	Tires	Long. slip (lagged), tire R1	Tire R1 long. slip (lagged)
+KappL_R2	-	Dimensionless ratio	Tires	Long. slip (lagged), tire R2	Tire R2 long. slip (lagged)
+Ksf_Gnd	s2/m2	Stability factor	Chassis motion	Vehicle ground stab. factor	Vehicle ground wheels
+Ksf_StrR	s2/m2	Stability factor	Chassis motion	Vehicle red. SW stab. factor	Vehicle reduced SWA
+Kug_Gnd	deg/g	Understeer gradient	Chassis motion	Vehicle ground understeer grad.	Vehicle ground wheels
+Kug_StrR	deg/g	Understeer gradient	Chassis motion	Vehicle red. SW understeer grad.	Vehicle reduced SWA
+K_TC	Kinv	Inverse capacity	Powertrain	TC inverse capacity	Torque converter
+Lat_Targ	m	Lateral distance to path	Driver model path	Target lateral offset from path	Target
+Lat_Veh	m	Lateral distance to path	Driver model path	Vehicle lateral distance to path	Vehicle
+Mfuel	kg	Fuel consumed	Powertrain	Mass of fuel consumed	Fuel
+mod1_L1	-	mod1_L1	VS Commands	mod1_L1	mod1_L1
+mod1_L2	-	mod1_L2	VS Commands	mod1_L2	mod1_L2
+mod1_R1	-	mod1_R1	VS Commands	mod1_R1	mod1_R1
+mod1_R2	-	mod1_R2	VS Commands	mod1_R2	mod1_R2
+mod2_L1	-	mod2_L1	VS Commands	mod2_L1	mod2_L1
+mod2_L2	-	mod2_L2	VS Commands	mod2_L2	mod2_L2
+mod2_R1	-	mod2_R1	VS Commands	mod2_R1	mod2_R1
+mod2_R2	-	mod2_R2	VS Commands	mod2_R2	mod2_R2
+mod3_L1	-	mod3_L1	VS Commands	mod3_L1	mod3_L1
+mod3_L2	-	mod3_L2	VS Commands	mod3_L2	mod3_L2
+mod3_R1	-	mod3_R1	VS Commands	mod3_R1	mod3_R1
+mod3_R2	-	mod3_R2	VS Commands	mod3_R2	mod3_R2
+mod4_L1	-	mod4_L1	VS Commands	mod4_L1	mod4_L1
+mod4_L2	-	mod4_L2	VS Commands	mod4_L2	mod4_L2
+mod4_R1	-	mod4_R1	VS Commands	mod4_R1	mod4_R1
+mod4_R2	-	mod4_R2	VS Commands	mod4_R2	mod4_R2
+ModeTran	-	Transmission control mode	Powertrain	Transmission control mode	Transmission control mode
+MuX_L1	-	Friction coefficient	Ground and road	Ground X friction for tire L1	Tire/Ground X L1
+MuX_L2	-	Friction coefficient	Ground and road	Ground X friction for tire L2	Tire/Ground X L2
+MuX_R1	-	Friction coefficient	Ground and road	Ground X friction for tire R1	Tire/Ground X R1
+MuX_R2	-	Friction coefficient	Ground and road	Ground X friction for tire R2	Tire/Ground X R2
+MuY_L1	-	Friction coefficient	Ground and road	Ground Y friction for tire L1	Tire/Ground Y L1
+MuY_L2	-	Friction coefficient	Ground and road	Ground Y friction for tire L2	Tire/Ground Y L2
+MuY_R1	-	Friction coefficient	Ground and road	Ground Y friction for tire R1	Tire/Ground Y R1
+MuY_R2	-	Friction coefficient	Ground and road	Ground Y friction for tire R2	Tire/Ground Y R2
+MxExL1	N-m	Moment	External actions	External MxExL1	Suspension
+MxExL2	N-m	Moment	External actions	External MxExL2	Suspension
+MxExR1	N-m	Moment	External actions	External MxExR1	Suspension
+MxExR2	N-m	Moment	External actions	External MxExR2	Suspension
+MxGExL1	N-m	Moment	External actions	External MxGExL1	Suspension
+MxGExL2	N-m	Moment	External actions	External MxGExL2	Suspension
+MxGExR1	N-m	Moment	External actions	External MxGExR1	Suspension
+MxGExR2	N-m	Moment	External actions	External MxGExR2	Suspension
+MXGEXT	N-m	Moment	External actions	External MxG 	Sprung mass
+Mx_A1	N-m	Moment	Suspensions	Axle 1 auxiliary roll moment	Axle 1 auxiliary roll moment
+Mx_A2	N-m	Moment	Suspensions	Axle 2 auxiliary roll moment	Axle 2 auxiliary roll moment
+Mx_Air	N-m	Moment	Aerodynamics	Vehicle aero. roll moment	Vehicle aerodynamic X
+MX_EXT	N-m	Moment	External actions	External Mx 	Sprung mass
+Mx_L1	N-m	Moment	Tires	Tire L1 overturning moment	Tire L1 overturning
+Mx_L2	N-m	Moment	Tires	Tire L2 overturning moment	Tire L2 overturning
+Mx_R1	N-m	Moment	Tires	Tire R1 overturning moment	Tire R1 overturning
+Mx_R2	N-m	Moment	Tires	Tire R2 overturning moment	Tire R2 overturning
+Mx_Wc_L1	N-m	Moment	Wheels	Tire Mx at wheel center L1	Tire Mx at wheel center L1
+Mx_Wc_L2	N-m	Moment	Wheels	Tire Mx at wheel center L2	Tire Mx at wheel center L2
+Mx_Wc_R1	N-m	Moment	Wheels	Tire Mx at wheel center R1	Tire Mx at wheel center R1
+Mx_Wc_R2	N-m	Moment	Wheels	Tire Mx at wheel center R2	Tire Mx at wheel center R2
+MyExL1	N-m	Moment	External actions	External MyExL1	Suspension
+MyExL2	N-m	Moment	External actions	External MyExL2	Suspension
+MyExR1	N-m	Moment	External actions	External MyExR1	Suspension
+MyExR2	N-m	Moment	External actions	External MyExR2	Suspension
+MyGExL1	N-m	Moment	External actions	External MyGExL1	Suspension
+MyGExL2	N-m	Moment	External actions	External MyGExL2	Suspension
+MyGExR1	N-m	Moment	External actions	External MyGExR1	Suspension
+MyGExR2	N-m	Moment	External actions	External MyGExR2	Suspension
+MYGEXT	N-m	Moment	External actions	External MyG 	Sprung mass
+MyRR_L1	N-m	Moment	Tires	Tire L1 roll resist moment	Tire L1 rolling resistance
+MyRR_L2	N-m	Moment	Tires	Tire L2 roll resist moment	Tire L2 rolling resistance
+MyRR_R1	N-m	Moment	Tires	Tire R1 roll resist moment	Tire R1 rolling resistance
+MyRR_R2	N-m	Moment	Tires	Tire R2 roll resist moment	Tire R2 rolling resistance
+My_Air	N-m	Moment	Aerodynamics	Vehicle aero. pitch moment	Vehicle aerodynamic Y
+My_Bk_L1	N-m	Moment	Brakes	Brake moment L1	Brake L1
+My_Bk_L2	N-m	Moment	Brakes	Brake moment L2	Brake L2
+My_Bk_R1	N-m	Moment	Brakes	Brake moment R1	Brake R1
+My_Bk_R2	N-m	Moment	Brakes	Brake moment R2	Brake R2
+My_Dr_L1	N-m	Moment	Powertrain	Total drive moment for wheel L1	Drive wheel L1
+My_Dr_L2	N-m	Moment	Powertrain	Total drive moment for wheel L2	Drive wheel L2
+My_Dr_R1	N-m	Moment	Powertrain	Total drive moment for wheel R1	Drive wheel R1
+My_Dr_R2	N-m	Moment	Powertrain	Total drive moment for wheel R2	Drive wheel R2
+MY_EXT	N-m	Moment	External actions	External My 	Sprung mass
+My_US_L1	N-m	Moment	Wheels	Ext moment on whl from usm L1	Wheel L1
+My_US_L2	N-m	Moment	Wheels	Ext moment on whl from usm L2	Wheel L2
+My_US_R1	N-m	Moment	Wheels	Ext moment on whl from usm R1	Wheel R1
+My_US_R2	N-m	Moment	Wheels	Ext moment on whl from usm R2	Wheel R2
+My_Wc_L1	N-m	Moment	Wheels	Tire My at wheel center L1	Tire My at wheel center L1
+My_Wc_L2	N-m	Moment	Wheels	Tire My at wheel center L2	Tire My at wheel center L2
+My_Wc_R1	N-m	Moment	Wheels	Tire My at wheel center R1	Tire My at wheel center R1
+My_Wc_R2	N-m	Moment	Wheels	Tire My at wheel center R2	Tire My at wheel center R2
+MzExL1	N-m	Moment	External actions	External MzExL1	Suspension
+MzExL2	N-m	Moment	External actions	External MzExL2	Suspension
+MzExR1	N-m	Moment	External actions	External MzExR1	Suspension
+MzExR2	N-m	Moment	External actions	External MzExR2	Suspension
+MzGExL1	N-m	Moment	External actions	External MzGExL1	Suspension
+MzGExL2	N-m	Moment	External actions	External MzGExL2	Suspension
+MzGExR1	N-m	Moment	External actions	External MzGExR1	Suspension
+MzGExR2	N-m	Moment	External actions	External MzGExR2	Suspension
+MZGEXT	N-m	Moment	External actions	External MzG 	Sprung mass
+Mz_Air	N-m	Moment	Aerodynamics	Vehicle aero. yaw moment	Vehicle aerodynamic Z
+MZ_EXT	N-m	Moment	External actions	External Mz 	Sprung mass
+Mz_KP_L1	N-m	Moment	Steering	Steering moment about kingpin L1	Steering about kingpin L1
+Mz_KP_L2	N-m	Moment	Steering	Steering moment about kingpin L2	Steering about kingpin L2
+Mz_KP_R1	N-m	Moment	Steering	Steering moment about kingpin R1	Steering about kingpin R1
+Mz_KP_R2	N-m	Moment	Steering	Steering moment about kingpin R2	Steering about kingpin R2
+Mz_L1	N-m	Moment	Tires	Tire L1 aligning moment	Tire L1 aligning
+Mz_L2	N-m	Moment	Tires	Tire L2 aligning moment	Tire L2 aligning
+Mz_R1	N-m	Moment	Tires	Tire R1 aligning moment	Tire R1 aligning
+Mz_R2	N-m	Moment	Tires	Tire R2 aligning moment	Tire R2 aligning
+Mz_Wc_L1	N-m	Moment	Wheels	Tire Mz at wheel center L1	Tire Mz at wheel center L1
+Mz_Wc_L2	N-m	Moment	Wheels	Tire Mz at wheel center L2	Tire Mz at wheel center L2
+Mz_Wc_R1	N-m	Moment	Wheels	Tire Mz at wheel center R1	Tire Mz at wheel center R1
+Mz_Wc_R2	N-m	Moment	Wheels	Tire Mz at wheel center R2	Tire Mz at wheel center R2
+M_Boost1	N-m	Torque	Steering	Axle 1 steering boost torque	Axle 1 power steering
+M_Boost2	N-m	Torque	Steering	Axle 2 steering boost torque	Axle 2 power steering
+M_Clutch	N-m	Torque	Powertrain	Torq. trans. device clutch torq.	Torque transfer device clutch
+M_Cl_Cap	N-m	Torque	Powertrain	Max. main clutch torque capacity	Torque transfer device clutch
+M_ColHys	N-m	Torque	Steering	Steering col. hysteresis torque	Steering
+M_ColVis	N-m	Torque	Steering	Steering column damping torque	Steering
+M_D1visc	N-m	Torque	Powertrain	Front diff. viscous torque	Front diff. viscous coupling
+M_D1_Cl	N-m	Torque	Powertrain	Front differential clutch torque	Front differential clutch
+M_D1_Cl2	N-m	Torque	Powertrain	Front diff. 2nd clutch torque	Front diff. second clutch
+M_D2visc	N-m	Torque	Powertrain	Rear diff. viscous torque	Rear diff. viscous coupling
+M_D2_Cl	N-m	Torque	Powertrain	Rear differential clutch torque	Rear differential clutch
+M_D2_Cl2	N-m	Torque	Powertrain	Rear diff. 2nd clutch torque	Rear diff. second clutch
+M_D3f	N-m	Torque	Powertrain	Transfer case front shaft torque	Transfer case front output shaft
+M_D3r	N-m	Torque	Powertrain	Transfer case rear shaft torque	Transfer case rear output shaft
+M_D3visc	N-m	Torque	Powertrain	Transfer case viscous torque	Transfer case viscous coupling
+M_D3_Cl	N-m	Torque	Powertrain	Transfer case clutch torque	Transfer case clutch
+M_D3_Cl2	N-m	Torque	Powertrain	Transfer case 2nd clutch torque	Transfer case second clutch
+M_EngOut	N-m	Torque	Powertrain	Engine crankshaft output torque	Engine crankshaft output
+M_Eng_In	N-m	Torque	Powertrain	Engine crankshaft input torque	Engine crankshaft input
+M_L1_Cl	N-m	Torque	Powertrain	Front left whl. clutch torque	Front left wheel clutch
+M_L2_Cl	N-m	Torque	Powertrain	Rear left whl. clutch torque	Rear left wheel clutch
+M_R1_Cl	N-m	Torque	Powertrain	Front right whl. clutch torque	Front right wheel clutch
+M_R2_Cl	N-m	Torque	Powertrain	Rear right whl. clutch torque	Rear right wheel clutch
+M_SW	N-m	Torque	Steering	Steering wheel torque	Steering wheel
+M_TBAR	N-m	Torque	Steering	Steering torsion bar torque	Steering
+M_TC	N-m	Torque	Powertrain	Trans input shaft torque	Transmission input shaft
+M_Trans	N-m	Torque	Powertrain	Trans. output shaft torque	Transmission output shaft
+PbkCh_L1	MPa	Pressure	Brakes	Brake whl. cylinder pressure L1	Brake wheel cylinder L1
+PbkCh_L2	MPa	Pressure	Brakes	Brake whl. cylinder pressure L2	Brake wheel cylinder L2
+PbkCh_R1	MPa	Pressure	Brakes	Brake whl. cylinder pressure R1	Brake wheel cylinder R1
+PbkCh_R2	MPa	Pressure	Brakes	Brake whl. cylinder pressure R2	Brake wheel cylinder R2
+PbkD_L1	MPa	Pressure	Brakes	Brake delivery pressure L1	Brake delivery L1
+PbkD_L2	MPa	Pressure	Brakes	Brake delivery pressure L2	Brake delivery L2
+PbkD_R1	MPa	Pressure	Brakes	Brake delivery pressure R1	Brake delivery R1
+PbkD_R2	MPa	Pressure	Brakes	Brake delivery pressure R2	Brake delivery R2
+Pbk_Con	MPa	Pressure	Brakes	Brake control input (M/C)	Brake master cylinder
+Pitch	deg	Angle	Chassis motion	Pitch, vehicle	Vehicle pitch
+PitchGL1	deg	Angle	Ground and road	Pitch at ground, wheel L1	Pitch at ground, wheel L1
+PitchGL2	deg	Angle	Ground and road	Pitch at ground, wheel L2	Pitch at ground, wheel L2
+PitchGR1	deg	Angle	Ground and road	Pitch at ground, wheel R1	Pitch at ground, wheel R1
+PitchGR2	deg	Angle	Ground and road	Pitch at ground, wheel R2	Pitch at ground, wheel R2
+PitchRd	deg	Angle	Chassis motion	Vehicle pitch rel. to road ref	Vehicle pitch
+Pitch_L1	deg	Angle	Wheels	Pitch, wheel L1	Pitch, wheel L1
+Pitch_L2	deg	Angle	Wheels	Pitch, wheel L2	Pitch, wheel L2
+Pitch_R1	deg	Angle	Wheels	Pitch, wheel R1	Pitch, wheel R1
+Pitch_R2	deg	Angle	Wheels	Pitch, wheel R2	Pitch, wheel R2
+PtchAero	deg	Angle	Aerodynamics	Aero pitch of sprung mass	Aero pitch
+PtchPath	deg	Angle	Driver model path	Pitch at ground on driver path	Ground at driver path
+PtchShad	deg	Angle	Shadow	Pitch angle of vehicle shadow	Shadow
+PwrEngAv	kW	Power	Powertrain	Engine available power	Engine available
+PwrEngIn	kW	Power	Powertrain	Engine crankshaft input power	Engine crankshaft input
+PwrEngO	kW	Power	Powertrain	Engine crankshaft output power	Engine crankshaft output
+PwrTrans	kW	Power	Powertrain	Transmission output shaft power	Transmission output shaft
+PwrWheel	kW	Power	Powertrain	Power to wheels from powertrain	Drive wheels
+Pwr_SC	kW	Power	Speed controller	Power from speed control (no PT)	Speed controller (no powertrain)
+Pwr_SCrq	kW	Power	Driver model	Power requested from speed ctrl	Speed controller requested power
+Pwr_TC	kW	Power	Powertrain	Trans input shaft power	Transmission input shaft
+Qfuel	-	Fuel rate	Powertrain	Fuel rate	Fuel
+Rgear_Tr	-	Dimensionless ratio	Powertrain	Transmission gear ratio	Transmission gear ratio
+RhoPathY	1/m	Curvature	Driver model path	Curvature of path (road lateral)	Driver path (road lateral)
+RhoPathZ	1/m	Curvature	Driver model path	Curvature of path (road normal)	Driver path (road normal)
+Rho_Road	1/m	Curvature	Driver model path	Curvature of road X-Y ref. path	Driver reference path
+RolA_A1r	deg/s2	Angular acceleration	Axles	Axle 1 relative roll acc.	Axle 1 relative roll
+RolA_A2r	deg/s2	Angular acceleration	Axles	Axle 2 relative roll acc.	Axle 2 relative roll
+Roll	deg	Angle	Chassis motion	Roll, vehicle	Vehicle roll
+RolLcaL1	deg	Angle	Suspensions	L1 lower control arm roll	L1 lower control arm roll
+RolLcaL2	deg	Angle	Suspensions	L2 lower control arm roll	L2 lower control arm roll
+RolLcaR1	deg	Angle	Suspensions	R1 lower control arm roll	R1 lower control arm roll
+RolLcaR2	deg	Angle	Suspensions	R2 lower control arm roll	R2 lower control arm roll
+RollGL1	deg	Angle	Ground and road	Roll at ground, wheel L1	Roll at ground, wheel L1
+RollGL2	deg	Angle	Ground and road	Roll at ground, wheel L2	Roll at ground, wheel L2
+RollGR1	deg	Angle	Ground and road	Roll at ground, wheel R1	Roll at ground, wheel R1
+RollGR2	deg	Angle	Ground and road	Roll at ground, wheel R2	Roll at ground, wheel R2
+RollPath	deg	Angle	Driver model path	Roll at ground on driver path	Ground at driver path
+RollShad	deg	Angle	Shadow	Roll angle of vehicle shadow	Shadow
+Roll_A1r	deg	Angle	Axles	Axle 1 relative roll	Axle 1 relative roll
+Roll_A2r	deg	Angle	Axles	Axle 2 relative roll	Axle 2 relative roll
+Roll_E	deg	Angle	Chassis motion	Roll (Euler), vehicle	Vehicle roll (Euler)
+Roll_L1	deg	Angle	Wheels	Roll (Euler), wheel L1	Roll, wheel L1
+Roll_L2	deg	Angle	Wheels	Roll (Euler), wheel L2	Roll, wheel L2
+Roll_R1	deg	Angle	Wheels	Roll (Euler), wheel R1	Roll, wheel R1
+Roll_R2	deg	Angle	Wheels	Roll (Euler), wheel R2	Roll, wheel R2
+Roll_Rd	deg	Angle	Chassis motion	Vehicle roll rel. to road ref	Vehicle roll
+RolR_A1r	deg/s	Angular rate	Axles	Axle 1 relative roll rate	Axle 1 relative roll
+RolR_A2r	deg/s	Angular rate	Axles	Axle 2 relative roll rate	Axle 2 relative roll
+RotTrans	rev	Rotation	Powertrain	Trans. output shaft rotation	Transmission output shaft
+Rot_D3f	rev	Rotation	Powertrain	Trans case front shaft rotation	Transfer case front output shaft
+Rot_D3r	rev	Rotation	Powertrain	Trans case rear shaft rotation	Transfer case rear output shaft
+Rot_Eng	rev	Rotation	Powertrain	Engine crankshaft rotation	Engine crankshaft
+Rot_L1	rev	Rotation	Wheels	Wheel L1 rotation	wheel L1
+Rot_L2	rev	Rotation	Wheels	Wheel L2 rotation	wheel L2
+Rot_R1	rev	Rotation	Wheels	Wheel R1 rotation	wheel R1
+Rot_R2	rev	Rotation	Wheels	Wheel R2 rotation	wheel R2
+Rot_TC	rev	Rotation	Powertrain	Trans input shaft rotation	Transmission input shaft
+R_AV_TC	-	Dimensionless ratio	Powertrain	TC output/input speed ratio	TC output/input speed
+R_M_TC	-	Dimensionless ratio	Powertrain	TC out./input shaft torque ratio	TC output/input shaft torque
+Station	m	Longitudinal distance	Driver model path	Station (path) at vehicle origin	Path station at vehicle origin
+Sta_Prof	m	Longitudinal distance	Ground and road	Station for road profiles	Road profile station
+Sta_Road	m	Longitudinal distance	Ground and road	Station (road) at vehicle origin	Road station at vehicle origin
+Steer_L1	deg	Angle	Steering	Wheel steer L1	Wheel steer L1
+Steer_L2	deg	Angle	Steering	Wheel steer L2	Wheel steer L2
+Steer_R1	deg	Angle	Steering	Wheel steer R1	Wheel steer R1
+Steer_R2	deg	Angle	Steering	Wheel steer R2	Wheel steer R2
+Steer_SW	deg	Angle	Steering	Steering wheel angle	Steering wheel
+StrAV_SW	deg/s	Angular rate	Steering	Steering wheel angular rate	Steering wheel
+StrC_L1	deg	Angle	Steering	Wheel L1 compliance steer	Wheel L1 compliance steer
+StrC_L2	deg	Angle	Steering	Wheel L2 compliance steer	Wheel L2 compliance steer
+StrC_R1	deg	Angle	Steering	Wheel R1 compliance steer	Wheel R1 compliance steer
+StrC_R2	deg	Angle	Steering	Wheel R2 compliance steer	Wheel R2 compliance steer
+StrK_L1	deg	Angle	Steering	Wheel L1 kinematic steer	Wheel L1 kinematic steer
+StrK_L2	deg	Angle	Steering	Wheel L2 kinematic steer	Wheel L2 kinematic steer
+StrK_R1	deg	Angle	Steering	Wheel R1 kinematic steer	Wheel R1 kinematic steer
+StrK_R2	deg	Angle	Steering	Wheel R2 kinematic steer	Wheel R2 kinematic steer
+StrSWr_1	deg	Angle	Steering	Axle 1 reduced SW angle	Axle 1 reduced SW
+StrSWr_2	deg	Angle	Steering	Axle 2 reduced SW angle	Axle 2 reduced SW
+TC_Lock	-	Boolean	Powertrain	Torque converter lockup signal	Torque converter lockup clutch
+Throttle	-	Dimensionless ratio	Powertrain	Normalized throttle at Pedal	Pedal
+Thrtl_SC	-	Dimensionless ratio	Powertrain	Throttle (speed controller)	Pedal (speed controller)
+Thr_Eng	-	Dimensionless ratio	Powertrain	Normalized throttle at Engine	Engine
+Thr_Intl	-	Dimensionless ratio	Powertrain	Normalized throttle (internal)	Pedal (internal)
+T_Event	s	Time	Time	Time since event clock reset	Event
+T_Rtr_L1	C	Temperature	Brakes	Brake rotor temperature (L1)	L1 brake rotor
+T_Rtr_L2	C	Temperature	Brakes	Brake rotor temperature (L2)	L2 brake rotor
+T_Rtr_R1	C	Temperature	Brakes	Brake rotor temperature (R1)	R1 brake rotor
+T_Rtr_R2	C	Temperature	Brakes	Brake rotor temperature (R2)	R2 brake rotor
+T_Stamp	s	Time	Time	Simulation time stamp	Simulation time stamp
+Vair	km/h	Speed	Aerodynamics	Air speed rel. to vehicle	Air relative to vehicle
+Vbk_Tot	mm3	Volume	Brakes	Total brake corner volume	Brake system
+VJStL1	mm/s	Compression rate	Suspensions	L1 susp jounce stop comp. rate	L1 jounce stop
+VJStL2	mm/s	Compression rate	Suspensions	L2 susp jounce stop comp. rate	L2 jounce stop
+VJStR1	mm/s	Compression rate	Suspensions	R1 susp jounce stop comp. rate	R1 jounce stop
+VJStR2	mm/s	Compression rate	Suspensions	R2 susp jounce stop comp. rate	R2 jounce stop
+VRStL1	mm/s	Compression rate	Suspensions	L1 susp rebound stop comp. rate	L1 rebound stop
+VRStL2	mm/s	Compression rate	Suspensions	L2 susp rebound stop comp. rate	L2 rebound stop
+VRStR1	mm/s	Compression rate	Suspensions	R1 susp rebound stop comp. rate	R1 rebound stop
+VRStR2	mm/s	Compression rate	Suspensions	R2 susp rebound stop comp. rate	R2 rebound stop
+VStKP_L1	deg/s	Angular rate	Steering	Steering rate about kingpin L1	Steering about kingpin L1
+VStKP_L2	deg/s	Angular rate	Steering	Steering rate about kingpin L2	Steering about kingpin L2
+VStKP_R1	deg/s	Angular rate	Steering	Steering rate about kingpin R1	Steering about kingpin R1
+VStKP_R2	deg/s	Angular rate	Steering	Steering rate about kingpin R2	Steering about kingpin R2
+Vwind	km/h	Speed	Aerodynamics	Wind speed	Wind
+Vx	km/h	Longitudinal speed	Chassis motion	Longitudinal speed, vehicle	Vehicle total CG
+VxCenL1	km/h	Longitudinal speed	Tires	Vx, center of tire contact L1	Center of tire contact L1
+VxCenL2	km/h	Longitudinal speed	Tires	Vx, center of tire contact L2	Center of tire contact L2
+VxCenR1	km/h	Longitudinal speed	Tires	Vx, center of tire contact R1	Center of tire contact R1
+VxCenR2	km/h	Longitudinal speed	Tires	Vx, center of tire contact R2	Center of tire contact R2
+VxNf_SM	km/h	Speed	Chassis motion	Global X speed, vehicle SM CG	Vehicle SM CG (global X)
+VxN_S1	km/h	Speed	Motion Sensors	Global X speed, sensor 1	Sensor 1 global X
+VxTarget	km/h	Longitudinal speed	Speed controller	Target speed	Target speed
+Vx_Err	km/h	Longitudinal speed	Speed controller	Speed controller error	Controller error
+Vx_IErr	m	Speed error integral	Speed controller	Integrated speed control error	Integrated speed error
+Vx_L1	km/h	Longitudinal speed	Wheels	Vx (equivalent), wheel L1	Wheel L1 (equivalent)
+Vx_L2	km/h	Longitudinal speed	Wheels	Vx (equivalent), wheel L2	Wheel L2 (equivalent)
+Vx_R1	km/h	Longitudinal speed	Wheels	Vx (equivalent), wheel R1	Wheel R1 (equivalent)
+Vx_R2	km/h	Longitudinal speed	Wheels	Vx (equivalent), wheel R2	Wheel R2 (equivalent)
+Vx_Rd	km/h	Longitudinal speed	Chassis motion	Vehicle long. speed, road ref	Vehicle total CG
+Vx_S1	km/h	Speed	Motion Sensors	Longitudinal speed, sensor 1	Sensor 1 longitudinal
+Vx_SM	km/h	Longitudinal speed	Chassis motion	Long. speed, vehicle SM CG	Vehicle SM CG
+Vx_Wc_L1	km/h	Longitudinal speed	Wheels	Vx at wheel center L1	Vx at Wheel center L1
+Vx_Wc_L2	km/h	Longitudinal speed	Wheels	Vx at wheel center L2	Vx at Wheel center L2
+Vx_Wc_R1	km/h	Longitudinal speed	Wheels	Vx at wheel center R1	Vx at Wheel center R1
+Vx_Wc_R2	km/h	Longitudinal speed	Wheels	Vx at wheel center R2	Vx at Wheel center R2
+Vy	km/h	Lateral speed	Chassis motion	Lateral speed, vehicle	Vehicle total CG
+VyNf_SM	km/h	Speed	Chassis motion	Global Y speed, vehicle SM CG	Vehicle SM CG (global Y)
+VyN_S1	km/h	Speed	Motion Sensors	Global Y speed, sensor 1	Sensor 1 global Y
+VyTC_L1	km/h	Lateral speed	Tires	Vy, L1 center of tire contact	Center of tire contact L1
+VyTC_L2	km/h	Lateral speed	Tires	Vy, L2 center of tire contact	Center of tire contact L2
+VyTC_R1	km/h	Lateral speed	Tires	Vy, R1 center of tire contact	Center of tire contact R1
+VyTC_R2	km/h	Lateral speed	Tires	Vy, R2 center of tire contact	Center of tire contact R2
+VY_Rack1	mm/s	Speed	Steering	Axle 1 steering rack disp. rate	Axle 1 steering
+VY_Rack2	mm/s	Speed	Steering	Axle 2 steering rack disp. rate	Axle 2 steering
+Vy_Rd	km/h	Lateral speed	Chassis motion	Vehicle lat. speed, road ref	Vehicle total CG
+Vy_S1	km/h	Speed	Motion Sensors	Lateral speed, sensor 1	Sensor 1 lateral
+Vy_SM	km/h	Lateral speed	Chassis motion	Lateral speed, vehicle SM CG	Vehicle SM CG
+Vy_Wc_L1	km/h	Lateral speed	Wheels	Vy at wheel center L1	Vy at Wheel center L1
+Vy_Wc_L2	km/h	Lateral speed	Wheels	Vy at wheel center L2	Vy at Wheel center L2
+Vy_Wc_R1	km/h	Lateral speed	Wheels	Vy at wheel center R1	Vy at Wheel center R1
+Vy_Wc_R2	km/h	Lateral speed	Wheels	Vy at wheel center R2	Vy at Wheel center R2
+Vz	km/h	Vertical speed	Chassis motion	Vertical speed, vehicle	Vehicle total CG
+VzN_S1	km/h	Speed	Motion Sensors	Global Z speed, sensor 1	Sensor 1 global Z
+Vz_Rd	km/h	Vertical speed	Chassis motion	Vehicle vert. speed, road ref	Vehicle total CG
+Vz_S1	km/h	Speed	Motion Sensors	Vertical speed, sensor 1	Sensor 1 vertical
+Vz_SM	km/h	Vertical speed	Chassis motion	Vertical speed, vehicle SM CG	Vehicle SM CG
+Vz_Wc_L1	km/h	Vertical speed	Wheels	Vz at wheel center L1	Vz at Wheel center L1
+Vz_Wc_L2	km/h	Vertical speed	Wheels	Vz at wheel center L2	Vz at Wheel center L2
+Vz_Wc_R1	km/h	Vertical speed	Wheels	Vz at wheel center R1	Vz at Wheel center R1
+Vz_Wc_R2	km/h	Vertical speed	Wheels	Vz at wheel center R2	Vz at Wheel center R2
+v_mod1	-	v_mod1	VS Commands	v_mod1	v_mod1
+v_mod2	-	v_mod2	VS Commands	v_mod2	v_mod2
+v_mod3	-	v_mod3	VS Commands	v_mod3	v_mod3
+v_mod4	-	v_mod4	VS Commands	v_mod4	v_mod4
+V_S1	km/h	Speed	Motion Sensors	Absolute speed, sensor 1	Sensor 1 absolute speed
+XCG_SM	m	Global X coordinate	Chassis motion	SM CG X coordinate, vehicle	Vehicle
+XCG_TM	m	Global X coordinate	Chassis motion	Tot. CG X coordinate, vehicle	Vehicle
+Xctc_L1	m	Global X coordinate	Tires	X coordinate, tire CTC L1	Center of tire contact L1
+Xctc_L2	m	Global X coordinate	Tires	X coordinate, tire CTC L2	Center of tire contact L2
+Xctc_R1	m	Global X coordinate	Tires	X coordinate, tire CTC R1	Center of tire contact R1
+Xctc_R2	m	Global X coordinate	Tires	X coordinate, tire CTC R2	Center of tire contact R2
+Xo	m	Global X coordinate	Chassis motion	X coordinate, vehicle origin	Vehicle
+Xrd_Air	m	Global X coordinate	Ground and road	X coord. of road aero ref.	Road Reference Frame
+X_camF	m	Global X coordinate	Camera	X coord. of camera front point	Camera front point X
+X_camR	m	Global X coordinate	Camera	X coord. of camera rear point	Camera rear point X
+X_Design	m	Global X coordinate	Driver model path	X coordinate of reference path	Driver reference path
+X_L1	m	Global X coordinate	Wheels	X coordinate, wheel center L1	Wheel center L1
+X_L2	m	Global X coordinate	Wheels	X coordinate, wheel center L2	Wheel center L2
+X_R1	m	Global X coordinate	Wheels	X coordinate, wheel center R1	Wheel center R1
+X_R2	m	Global X coordinate	Wheels	X coordinate, wheel center R2	Wheel center R2
+X_S1	m	Global X coordinate	Motion Sensors	Global X, sensor 1	Sensor 1 X
+X_Target	m	Global X coordinate	Driver model path	X coordinate of target path	Target
+Yaw	deg	Angle	Chassis motion	Yaw, vehicle	Vehicle yaw
+Yaw_CamF	deg	Angle	Camera	Yaw (road) at camera front point	Camera front point yaw
+Yaw_CamR	deg	Angle	Camera	Yaw (road) at camera rear point	Camera rear point yaw
+Yaw_L1	deg	Angle	Wheels	Yaw, wheel L1	Yaw, wheel L1
+Yaw_L2	deg	Angle	Wheels	Yaw, wheel L2	Yaw, wheel L2
+Yaw_R1	deg	Angle	Wheels	Yaw, wheel R1	Yaw, wheel R1
+Yaw_R2	deg	Angle	Wheels	Yaw, wheel R2	Yaw, wheel R2
+Yaw_Wind	deg	Angle	Aerodynamics	Global wind heading (yaw)	Wind heading
+YCG_SM	m	Global Y coordinate	Chassis motion	SM CG Y coordinate, vehicle	Vehicle
+YCG_TM	m	Global Y coordinate	Chassis motion	Tot. CG Y coordinate, vehicle	Vehicle
+Yctc_L1	m	Global Y coordinate	Tires	Y coordinate, tire CTC L1	Center of tire contact L1
+Yctc_L2	m	Global Y coordinate	Tires	Y coordinate, tire CTC L2	Center of tire contact L2
+Yctc_R1	m	Global Y coordinate	Tires	Y coordinate, tire CTC R1	Center of tire contact R1
+Yctc_R2	m	Global Y coordinate	Tires	Y coordinate, tire CTC R2	Center of tire contact R2
+Yo	m	Global Y coordinate	Chassis motion	Y coordinate, vehicle origin	Vehicle
+Yrd_Air	m	Global Y coordinate	Ground and road	Y coord. of road aero ref.	Road Reference Frame
+Y_camF	m	Global Y coordinate	Camera	Y coord. of camera front point	Camera front point Y
+Y_camR	m	Global Y coordinate	Camera	Y coord. of camera rear point	Camera rear point Y
+Y_Design	m	Global Y coordinate	Driver model path	Y coordinate of reference path	Driver reference path
+Y_L1	m	Global Y coordinate	Wheels	Y coordinate, wheel center L1	Wheel center L1
+Y_L2	m	Global Y coordinate	Wheels	Y coordinate, wheel center L2	Wheel center L2
+Y_R1	m	Global Y coordinate	Wheels	Y coordinate, wheel center R1	Wheel center R1
+Y_R2	m	Global Y coordinate	Wheels	Y coordinate, wheel center R2	Wheel center R2
+Y_Rack1	mm	Displacement	Steering	Axle 1 steering rack disp.	Axle 1 steering
+Y_Rack2	mm	Displacement	Steering	Axle 2 steering rack disp.	Axle 2 steering
+Y_S1	m	Global Y coordinate	Motion Sensors	Global Y, sensor 1	Sensor 1 Y
+Y_Target	m	Global Y coordinate	Driver model path	Y coordinate of target path	Target
+ZCG_SM	m	Global Z coordinate	Chassis motion	SM CG Z coordinate, vehicle	Vehicle
+ZCG_TM	m	Global Z coordinate	Chassis motion	Tot. CG Z coordinate, vehicle	Vehicle
+Zgnd_L1	m	Global Z coordinate	Ground and road	Ground Z coord under tire L1	Ground under tire L1
+Zgnd_L2	m	Global Z coordinate	Ground and road	Ground Z coord under tire L2	Ground under tire L2
+Zgnd_R1	m	Global Z coordinate	Ground and road	Ground Z coord under tire R1	Ground under tire R1
+Zgnd_R2	m	Global Z coordinate	Ground and road	Ground Z coord under tire R2	Ground under tire R2
+Zo	m	Global Z coordinate	Chassis motion	Z coordinate, vehicle origin	Vehicle
+Zrd_Air	m	Global Z coordinate	Ground and road	Z coord. of road aero ref.	Road reference frame
+Z_Aero	m	Height	Aerodynamics	Height of aero ref pt above road	Aerodynamic ref point height
+Z_camF	m	Global Z coordinate	Camera	Z coord. of camera front point	Camera front point Z
+Z_camR	m	Global Z coordinate	Camera	Z coord. of camera rear point	Camera rear point Z
+Z_Gnd_F	m	Global Z coordinate	Aerodynamics	Front average ground z	Aero Z front
+Z_Gnd_R	m	Global Z coordinate	Aerodynamics	Rear average ground z	Aero Z rear
+Z_L1	m	Global Z coordinate	Wheels	Z coordinate, wheel center L1	Wheel center L1
+Z_L2	m	Global Z coordinate	Wheels	Z coordinate, wheel center L2	Wheel center L2
+Z_R1	m	Global Z coordinate	Wheels	Z coordinate, wheel center R1	Wheel center R1
+Z_R2	m	Global Z coordinate	Wheels	Z coordinate, wheel center R2	Wheel center R2
+Z_S1	m	Global Z coordinate	Motion Sensors	Global Z, sensor 1	Sensor 1 Z
+Z_Shadow	m	Global Z coordinate	Shadow	Z coordinate, vehicle shadow	Shadow

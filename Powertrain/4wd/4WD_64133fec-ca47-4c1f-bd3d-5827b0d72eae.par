@@ -1,0 +1,69 @@
+PARSFILE
+#FullDataName Powertrain: 4-Wheel Drive`300 kW, 8-spd., 2.65 Ratio`
+INSTALL_ENGINE
+INSTALL_TORQUE_TRANSFER_DEVICE
+INSTALL_TRANSMISSION
+
+OPT_PT 3
+R_REAR_DRIVE_SC 0.5
+
+OPT_ENGINE_PITCH_REACTION(1) 0
+OPT_ENGINE_PITCH_REACTION(2) 0
+
+#RingCtrl0 1
+R_MDRIVE 1
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 2
+#RingCtrl4 1
+#RingCtrl5 1
+#RingCtrl6 1
+#RingCtrl7 0
+OPT_HEV 0
+DRIVELINE_FREQ 9
+DRIVELINE_ZETA 0.9
+
+#CheckBox0 0    
+#CheckBox1 0    
+
+OPT_ENGINE_INTERNAL 1
+OPT_PWR_CPL_INTERNAL 1
+OPT_TRANS_INTERNAL 1
+OPT_DIFF_INTERNAL(1) 1
+OPT_DIFF_INTERNAL(2) 1
+OPT_DIFF_INTERNAL(3) 1
+
+PARSFILE Powertrain\Engine\Engine_8040b1ad-5f06-4c6c-a6e6-740997750fc3.par
+#BlueLink0 Powertrain: Engine`300 kW  Engine` CS Engine Torque Curves` , Engine`Engine_8040b1ad-5f06-4c6c-a6e6-740997750fc3
+
+PARSFILE Powertrain\TConv\TC_29ab28a7-2a3e-463d-b7ff-f3104bb4a545.par
+#BlueLink1 Powertrain: Torque Converter`Torque Converter for 300 kW Engine` CS Torque Converters` , Torque Conv.`TC_29ab28a7-2a3e-463d-b7ff-f3104bb4a545
+
+PARSFILE Powertrain\TransExt\Trans18_5d015e16-9d75-458f-b61d-d022a7f2b681.par
+#BlueLink10 Powertrain: Transmission (18 Gears or CVT)`8-Speed Transmission` ` , Transmission (Extended)`Trans18_5d015e16-9d75-458f-b61d-d022a7f2b681
+
+
+IDIFF 3
+PARSFILE Powertrain\Centerdiff\XC_eab57451-9d2c-4c0a-91ca-a1c4a8b73a1a.par
+#BlueLink3 Powertrain: Transfer Case`Full Time Viscous 50/50` ` , Transfer case`XC_eab57451-9d2c-4c0a-91ca-a1c4a8b73a1a
+
+
+IDIFF 1
+PARSFILE Powertrain\Frontdiff\DiffF_d46313e7-ccfc-4e7c-9224-462603088fb7.par
+#BlueLink4 Powertrain: Front Differential`Viscous - Gear Ratio 2.65` CS Front Differentials` , Differential front`DiffF_d46313e7-ccfc-4e7c-9224-462603088fb7
+
+
+IDIFF 2
+PARSFILE Powertrain\Reardiff\DiffR_da4842d3-1cfe-4768-958e-30a52829d844.par
+#BlueLink5 Powertrain: Rear Differential`Viscous - Gear Ratio 2.65` CS Rear Differentials` , Differential rear`DiffR_da4842d3-1cfe-4768-958e-30a52829d844
+
+
+LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; 300 kW, 8-spd., 2.65 Ratio
+#Library : Powertrain: 4-Wheel Drive
+#DataSet : 300 kW, 8-spd., 2.65 Ratio
+#Category: 
+#FileID  : 4WD_64133fec-ca47-4c1f-bd3d-5827b0d72eae
+#Product : CarSim 2020.0
+#VehCode 4WD
+
+END

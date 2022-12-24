@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Euro. Sedan Wheel`Tires
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\tires\195_45R16\wheel.obj
+#ENDMYellow
+
+SET_COLOR .62 .62 .62
+*SPECULAR 0.5
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0.5 0.5 0.5
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_3dafe263-b4dc-46a2-bb2e-95660b50dd2e.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Wheel
+#Library : Animator: Shape File Link
+#DataSet : Euro. Sedan Wheel
+#Category: Tires
+#FileID  : Shape_3dafe263-b4dc-46a2-bb2e-95660b50dd2e
+#Product : CarSim 2020.0
+#VehCode Shape File
+
+END

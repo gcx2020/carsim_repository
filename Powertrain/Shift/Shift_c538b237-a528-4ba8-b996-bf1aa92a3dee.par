@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Powertrain: Shift Schedule`8-speed, 6-7 Shift`8-speed
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+
+#DiagramOne0
+UPSHIFT_TRANS_TABLE
+0, 868
+0.2, 868
+0.8, 5850
+1, 5850
+ENDTABLE
+#DiagramOne1
+DOWNSHIFT_TRANS_TABLE
+0, 781
+0.2, 781
+0.8, 5265
+1, 5265
+ENDTABLE
+
+LOG_ENTRY Used Dataset: Powertrain: Shift Schedule; { 8-speed } 8-speed, 6-7 Shift
+#Library : Powertrain: Shift Schedule
+#DataSet : 8-speed, 6-7 Shift
+#Category: 8-speed
+#FileID  : Shift_c538b237-a528-4ba8-b996-bf1aa92a3dee
+#Product : CarSim 2020.0
+#VehCode Shift Schedule
+
+END

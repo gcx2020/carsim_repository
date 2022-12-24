@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`European Sedan: Details`CS European Sedan
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\details.obj
+#ENDMYellow
+
+SET_COLOR 0.753 0.753 0.753
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_51efed0b-495d-497a-b06e-54b3bdbe64f5.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Details
+#Library : Animator: Shape File Link
+#DataSet : European Sedan: Details
+#Category: CS European Sedan
+#FileID  : Shape_51efed0b-495d-497a-b06e-54b3bdbe64f5
+#Product : CarSim 2020.0
+#VehCode Shape File
+
+END

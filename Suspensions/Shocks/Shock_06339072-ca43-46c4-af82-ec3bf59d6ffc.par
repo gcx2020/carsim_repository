@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Suspension: Shock Absorber`Big Car Damping`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RadioCtrl0 0    
+
+#DiagramOne0
+FD_TABLE SPLINE
+-1410, -5008
+-720, -3436
+-390, -2324
+-210, -1792
+-90, -1008
+-20, -228
+20, 228
+90, 596
+200, 784
+390, 1100
+760, 1796
+1160, 2560
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Suspension: Shock Absorber; Big Car Damping
+#Library : Suspension: Shock Absorber
+#DataSet : Big Car Damping
+#Category: 
+#FileID  : Shock_06339072-ca43-46c4-af82-ec3bf59d6ffc
+#Product : CarSim 2020.0
+#VehCode Shock Absorber
+
+END

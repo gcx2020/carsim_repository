@@ -1,0 +1,85 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`F-Class, Sedan`CS F-Class
+*COLOR .36 .117 .117
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0.25
+*X_REF_LENGTH 2711
+*Y_REF_LENGTH 1750
+*Z_REF_LENGTH 1400
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 0
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_dbceebb0-1fab-44c9-8217-f9afd87bd444.png
+PARSFILE Animator\STL\Shape_46bbd8c3-972b-491b-ada8-8b076bd1780a.par
+#BlueLink0 Animator: Shape File Link`European Sedan: Body` CS European Sedan` , Shape File`Shape_46bbd8c3-972b-491b-ada8-8b076bd1780a
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+PARSFILE Animator\STL\Shape_51efed0b-495d-497a-b06e-54b3bdbe64f5.par
+#BlueLink1 Animator: Shape File Link`European Sedan: Details` CS European Sedan` , Shape File`Shape_51efed0b-495d-497a-b06e-54b3bdbe64f5
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+PARSFILE Animator\STL\Shape_a6fdcf39-2ef6-4cd9-b8e6-ca4fb16952b9.par
+#BlueLink2 Animator: Shape File Link`European Sedan: Windows` CS European Sedan` , Shape File`Shape_a6fdcf39-2ef6-4cd9-b8e6-ca4fb16952b9
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+PARSFILE Animator\STL\Shape_1e1d097c-c1ab-498a-a67e-e726af1a87d5.par
+#BlueLink3 Animator: Shape File Link`European Sedan: Interior Trim` CS European Sedan` , Shape File`Shape_1e1d097c-c1ab-498a-a67e-e726af1a87d5
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+PARSFILE Animator\STL\Shape_8ffc3080-d8a4-4315-b702-7fa11154a2e4.par
+#BlueLink4 Animator: Shape File Link`European Sedan: Steering Wheel` CS European Sedan` , Shape File`Shape_8ffc3080-d8a4-4315-b702-7fa11154a2e4
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+PARSFILE Animator\STL\Shape_553b0025-1973-4c33-a914-46aeb25f6ef9.par
+#BlueLink5 Animator: Shape File Link`European Sedan: Seats` CS European Sedan` , Shape File`Shape_553b0025-1973-4c33-a914-46aeb25f6ef9
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+PARSFILE Animator\STL\Shape_587aa98f-459e-4d62-9de9-550a9a2ed6ea.par
+#BlueLink13 Animator: Shape File Link`European Sedan: Driver` CS European Sedan` , Shape File`Shape_587aa98f-459e-4d62-9de9-550a9a2ed6ea
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+x_ref_length 2711
+y_ref_length 1750
+z_ref_length 1400
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS F-Class } F-Class, Sedan
+#Library : Animator: Shape Assembly
+#DataSet : F-Class, Sedan
+#Category: CS F-Class
+#FileID  : ShpGrp_dbceebb0-1fab-44c9-8217-f9afd87bd444
+#Product : CarSim 2020.0
+#VehCode Shape Assembly
+
+END

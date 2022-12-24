@@ -1,0 +1,63 @@
+PARSFILE
+#FullDataName Suspension: Lateral Movement Due to Jounce`Rear 5-Link - Lateral Movement`5-Link Rear
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+SUSP_LAT_COMBINE ADD
+#DiagramOne0
+SUSP_LAT_TABLE SPLINE
+-70, 5.34878
+-60, 3.82136
+-50, 2.55534
+-40, 1.54581
+-30, 0.788587
+-20, 0.280222
+-10, 0.018009
+0, 0
+10, 0.22505
+20, 0.692872
+30, 1.40412
+40, 2.36046
+50, 3.56474
+60, 5.02106
+70, 6.73495
+ENDTABLE
+SUSP_Y_AXLE_ROLL_COMBINE ADD ! in case this is for a solid axle
+#DiagramOne0
+SUSP_LAT_AXLE_JOUNCE_TABLE SPLINE
+-70, 5.34878
+-60, 3.82136
+-50, 2.55534
+-40, 1.54581
+-30, 0.788587
+-20, 0.280222
+-10, 0.018009
+0, 0
+10, 0.22505
+20, 0.692872
+30, 1.40412
+40, 2.36046
+50, 3.56474
+60, 5.02106
+70, 6.73495
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+
+
+#EMBEDDED_NOTES
+#Generic 5-Link rear Lateral movement vs. Jounce
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; { 5-Link Rear } Rear 5-Link - Lateral Movement
+#Library : Suspension: Lateral Movement Due to Jounce
+#DataSet : Rear 5-Link - Lateral Movement
+#Category: 5-Link Rear
+#FileID  : LatJnc_9c40fac2-9372-4ba7-a351-6bbc84d4a87e
+#Product : CarSim 2020.0
+#VehCode Lateral Movement
+
+END

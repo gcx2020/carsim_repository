@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Animator: Sound Set`Tire Sounds - Scaled to Fz_Ref`Tire Sounds
+
+PARSFILE Animator\Sound\Sample\SndSmp_41880d74-9a57-4ed1-b48a-d1b2836464b8.par
+#BlueLink0 Animator: Sound Sample`Lateral Slip` Tire Sounds` , Sample 1`SndSmp_41880d74-9a57-4ed1-b48a-d1b2836464b8
+
+
+PARSFILE Animator\Sound\Sample\SndSmp_a1b05572-25fc-4256-b656-17c5cf6ced93.par
+#BlueLink1 Animator: Sound Sample`Wheelspin / Brake Lockup` Tire Sounds` , Sample 2`SndSmp_a1b05572-25fc-4256-b656-17c5cf6ced93
+
+
+
+
+
+
+
+
+
+
+
+
+LOG_ENTRY Used Dataset: Animator: Sound Set; { Tire Sounds } Tire Sounds - Scaled to Fz_Ref
+#Library : Animator: Sound Set
+#DataSet : Tire Sounds - Scaled to Fz_Ref
+#Category: Tire Sounds
+#FileID  : SndSet_d03f53b6-e5d8-433e-bddd-d970bd354bea
+#Product : CarSim 2020.0
+#VehCode Sound Set
+
+END

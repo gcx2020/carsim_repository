@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Suspension: Toe Angle`Rear 5-Link - Toe Change`5-Link Rear
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+TOE_COMBINE ADD
+#DiagramOne0
+TOE_TABLE SPLINE
+-70, -1.02057
+-60, -0.828098
+-50, -0.65623
+-40, -0.501756
+-30, -0.361641
+-20, -0.233037
+-10, -0.113294
+0, 0
+10, 0.108974
+20, 0.215401
+30, 0.320605
+40, 0.425353
+50, 0.529714
+60, 0.632927
+70, 0.733253
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+
+
+#EMBEDDED_NOTES
+#Generic 5-Link Rear Toe change vs. Jounce
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Toe Angle; { 5-Link Rear } Rear 5-Link - Toe Change
+#Library : Suspension: Toe Angle
+#DataSet : Rear 5-Link - Toe Change
+#Category: 5-Link Rear
+#FileID  : Toe_c758daa6-a546-495a-878e-3ce95045fce1
+#Product : CarSim 2020.0
+#VehCode Toe
+
+END

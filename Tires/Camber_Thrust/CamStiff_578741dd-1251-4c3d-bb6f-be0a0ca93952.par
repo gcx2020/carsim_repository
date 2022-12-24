@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Tire: Camber Thrust Coefficient`225/60 R18`Touring Tires
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RadioCtrl0 0    
+
+#DiagramOne0
+KGAMMA_TABLE SPLINE
+0, 0
+784.532, -2.7453
+1569.064, -6.7216
+2353.596, -11.0497
+3138.128, -15.5865
+3922.66, -20.2695
+4707.192, -25.0638
+5491.724, -29.9472
+6276.256, -34.9047
+7060.788, -39.925
+7845.32, -45
+8629.852, -50.1231
+9414.384, -55.2891
+10198.916, -60.4937
+10983.448, -65.7334
+11767.98, -71.0051
+12552.512, -76.3065
+13337.044, -81.6351
+14121.576, -86.9892
+14906.108, -92.3669
+15690.64, -97.767
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 225/60 R18
+#Library : Tire: Camber Thrust Coefficient
+#DataSet : 225/60 R18
+#Category: Touring Tires
+#FileID  : CamStiff_578741dd-1251-4c3d-bb6f-be0a0ca93952
+#Product : CarSim 2020.0
+#VehCode Camber Thrust
+
+END

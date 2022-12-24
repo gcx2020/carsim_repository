@@ -1,0 +1,80 @@
+PARSFILE
+#FullDataName Suspension: Independent System Kinematics`F-Class, Sedan - Rear Susp. Kinematics_AudiA8`CS F-Class
+iside 1
+#RingCtrl0 1
+OPT_JNC_DESIGN 1
+#RingCtrl1 1
+#RingCtrl2 2
+#RingCtrl3 2
+#RingCtrl4 2
+#RingCtrl5 2
+#CheckBox0 0    
+#CheckBox1 0    
+#CheckBox2 0    
+
+R_US_STR 0.1
+*DIVE_L 0
+L_TRACK 1624
+Y_CL_SUSP 0
+M_US 100
+*IW_L 0.9
+*JNC_DESIGN_L 0
+*TOE_L 0
+*CAMBER_L -1.5
+*M_US_IND_L 45
+*M_US_STR_L 5
+SUSP_DIVE_COEFFICIENT 0
+PARSFILE Suspensions\Longitudinal\SusX_e3f77dbd-5cb0-44bf-93cc-55b9d64b4fcc.par
+#BlueLink1 Suspension: Longitudinal Movement`Rear 5-Link - Longitudinal Movement` 5-Link Rear` , Left wheel X`SusX_e3f77dbd-5cb0-44bf-93cc-55b9d64b4fcc
+
+PARSFILE Suspensions\Camber\Camber_5362347d-a2fe-48dc-a2b8-c7e05be1078c.par
+#BlueLink2 Suspension: Camber Angle`Rear 5-Link - Camber Change` 5-Link Rear` , Left wheel camber`Camber_5362347d-a2fe-48dc-a2b8-c7e05be1078c
+
+PARSFILE Suspensions\Lateral\LatJnc_9c40fac2-9372-4ba7-a351-6bbc84d4a87e.par
+#BlueLink3 Suspension: Lateral Movement Due to Jounce`Rear 5-Link - Lateral Movement` 5-Link Rear` , Left wheel lateral (-Y)`LatJnc_9c40fac2-9372-4ba7-a351-6bbc84d4a87e
+
+PARSFILE Suspensions\Toe\Toe_c758daa6-a546-495a-878e-3ce95045fce1.par
+#BlueLink4 Suspension: Toe Angle`Rear 5-Link - Toe Change` 5-Link Rear` , Left wheel toe`Toe_c758daa6-a546-495a-878e-3ce95045fce1
+
+M_US_IND 45
+M_US_STR 5
+IW 0.9
+JNC_DESIGN 0
+A_TOE 0
+A_CAMBER -1.5
+
+iside 2
+SUSP_DIVE_COEFFICIENT 0
+PARSFILE Suspensions\Longitudinal\SusX_e3f77dbd-5cb0-44bf-93cc-55b9d64b4fcc.par
+#BlueLink1 Suspension: Longitudinal Movement`Rear 5-Link - Longitudinal Movement` 5-Link Rear` , Left wheel X`SusX_e3f77dbd-5cb0-44bf-93cc-55b9d64b4fcc
+
+PARSFILE Suspensions\Camber\Camber_5362347d-a2fe-48dc-a2b8-c7e05be1078c.par
+#BlueLink2 Suspension: Camber Angle`Rear 5-Link - Camber Change` 5-Link Rear` , Left wheel camber`Camber_5362347d-a2fe-48dc-a2b8-c7e05be1078c
+
+PARSFILE Suspensions\Lateral\LatJnc_9c40fac2-9372-4ba7-a351-6bbc84d4a87e.par
+#BlueLink3 Suspension: Lateral Movement Due to Jounce`Rear 5-Link - Lateral Movement` 5-Link Rear` , Left wheel lateral (-Y)`LatJnc_9c40fac2-9372-4ba7-a351-6bbc84d4a87e
+
+PARSFILE Suspensions\Toe\Toe_c758daa6-a546-495a-878e-3ce95045fce1.par
+#BlueLink4 Suspension: Toe Angle`Rear 5-Link - Toe Change` 5-Link Rear` , Left wheel toe`Toe_c758daa6-a546-495a-878e-3ce95045fce1
+
+M_US_IND 45
+M_US_STR 5
+IW 0.9
+JNC_DESIGN 0
+A_TOE 0
+A_CAMBER -1.5
+
+#EMBEDDED_NOTES
+#Generic 5-Link rear suspension kinematics
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { CS F-Class } F-Class, Sedan - Rear Susp. Kinematics_AudiA8
+#Library : Suspension: Independent System Kinematics
+#DataSet : F-Class, Sedan - Rear Susp. Kinematics_AudiA8
+#Category: CS F-Class
+#FileID  : KinInd_a406f3f7-bb50-45ea-b2c8-2f6d84a4c311
+#Product : CarSim 2020.0
+#VehCode Independent
+
+END

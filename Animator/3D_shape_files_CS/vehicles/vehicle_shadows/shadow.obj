@@ -1,0 +1,24 @@
+# Max2Obj Version 4.0 Mar 10th, 2001
+#
+mtllib ./shadow.mtl
+g
+# object 1_-_Default to come ...
+#
+v  -4.03654 -1.25955 0
+v  1.28691 -1.25955 0
+v  -4.03654 1.26314 0
+v  1.28691 1.26314 0
+# 4 vertices
+
+vt  0.99455 0.00545 0.5
+vt  0.99455 0.99455 0.5
+vt  0.00545 0.99455 0.5
+vt  0.00545 0.00545 0.5
+# 4 texture vertices
+
+g 1_-_Default
+usemtl 1_-_Default
+f 4/3 3/4 1/1 2/2
+# 1 faces
+
+g

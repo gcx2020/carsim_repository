@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Procedures`PreScan Maneuver`
+#CheckBox3 0    
+
+#RingCtrl0 0
+#RingCtrl1 -1
+#RingCtrl2 0
+OPT_STOP -1
+TSTART 0
+SSTART 0
+TSTART_WRITE = TSTART;
+SSTOP =  SSTART + 1 ;
+OPT_DIRECTION 1
+TSTOP -1
+*SPEED 0
+*TSTOP 10
+*TSTART 0
+*SSTART 0
+*SSTOP 210
+
+OPT_SC 0
+SV_VXS 0
+PARSFILE Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par
+#BlueLink30 Control: Shifting (Closed Loop)`AT All Gears` ` , Shifting Control`GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86
+
+#BlueLink0 ` , Misc.` , Miscellaneous` , Miscellaneous`
+
+#BlueLink1 ` , Misc.` , Miscellaneous` , Miscellaneous`
+
+
+#EMBEDDED_NOTES
+#This Procedure demonstrates a common Double Lane Change handling test.
+#
+#This example is used in the CarSim Quick Start Guide. Since the test duration is short (10 seconds or 210 m, whichever comes first) and the dynamic motions are easily visible in the animator, it is a test commonly used to evaluate different vehicle data.
+#
+#To see how the driver path was set up, click on the blue link "Double Lane Change (Quick Start)" for more information.
+#
+#The driver controls specify a closed-loop speed control with a constant target speed of 120 kph, no brake pressure, and automatic gear selection using all available gears.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; PreScan Maneuver
+#Library : Procedures
+#DataSet : PreScan Maneuver
+#Category: 
+#FileID  : Proc_e523167c-b2ec-4ae5-b1fa-e27db17ee48b
+#Product : CarSim 2020.0
+#VehCode Procedure
+
+END

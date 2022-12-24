@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Sound Sample`Wind Noise`Wind Noise
+
+ADD_3D_SOUND Animator\Audio\Environment\Wind_1_Mono.WAV
+#CheckBox0 1    
+LOOP_SOUND on
+
+#RingCtrl0 Default
+SOUND_AUTO_START Default
+
+SOUND_VOL_MULT 0.3
+SOUND_VOL_MIN 0.01
+SOUND_VOL_MAX 9.0
+SOUND_FREQ_MULT 1.0
+SOUND_FREQ_MIN 0.01
+SOUND_FREQ_MAX 9.0
+
+PARSFILE Animator\Sound\Modifier\SndMod_59e0531b-dd39-45ad-ba0e-7a1d650b1244.par
+#BlueLink0 Animator: Sound Modifier`Loudness: Speed Effect` Wind Sound Modifiers` , Playback Modification 1`SndMod_59e0531b-dd39-45ad-ba0e-7a1d650b1244
+
+PARSFILE Animator\Sound\Modifier\SndMod_6c2f9d3c-2cd8-4a47-8c30-a4cac11ee2de.par
+#BlueLink1 Animator: Sound Modifier`Frequency: Speed Effect` Wind Sound Modifiers` , Playback Modification 2`SndMod_6c2f9d3c-2cd8-4a47-8c30-a4cac11ee2de
+
+
+LOG_ENTRY Used Dataset: Animator: Sound Sample; { Wind Noise } Wind Noise
+#Library : Animator: Sound Sample
+#DataSet : Wind Noise
+#Category: Wind Noise
+#FileID  : SndSmp_10e59797-9993-4228-b401-95c72f722186
+#Product : CarSim 2020.0
+#VehCode Sound Sample
+
+END

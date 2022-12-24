@@ -1,0 +1,87 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`F-Class, Sedan`F-Class Vehicles
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox6 1    
+#CheckBox8 0    
+
+OBJ_X_LENGTH 3165
+OBJ_Y_LENGTH 1870
+OBJ_Z_LENGTH 1475
+*DZ_V 0
+*LAT_WC 1675
+*LAT_WC_2 1675
+*HWC 320
+*WHEEL_RATIO 1.35
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\Vehicles\AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.35
+SET_SCALE_Y 1.35
+SET_SCALE_Z 1.35
+SET_OFFSET_X 0
+SET_OFFSET_Y 0.8375
+SET_OFFSET_Z 0.304
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.35
+SET_SCALE_Y 1.35
+SET_SCALE_Z 1.35
+SET_ANGLE_X 180
+SET_OFFSET_X 0
+SET_OFFSET_Y -0.8375
+SET_OFFSET_Z 0.304
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.35
+SET_SCALE_Y 1.35
+SET_SCALE_Z 1.35
+SET_OFFSET_X -3.165
+SET_OFFSET_Y 0.8375
+SET_OFFSET_Z 0.304
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.35
+SET_SCALE_Y 1.35
+SET_SCALE_Z 1.35
+SET_ANGLE_X 180
+SET_OFFSET_X -3.165
+SET_OFFSET_Y -0.8375
+SET_OFFSET_Z 0.304
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\STL_Groups\ShpGrp_dbceebb0-1fab-44c9-8217-f9afd87bd444.par
+#BlueLink1 Animator: Shape Assembly`F-Class, Sedan` CS F-Class` , Vehicle Body`ShpGrp_dbceebb0-1fab-44c9-8217-f9afd87bd444
+
+WRITE_REFERENCE_FRAME_SIZE
+WRITE_ADD_REFERENCE_FRAME_BRAKES
+PARSFILE Animator\STL\Shape_28bbac1d-2c99-4510-b71f-791304a1fc1e.par
+#BlueLink3 Animator: Shape File Link`European Sedan: Brake Lights (F-Class)` CS European Sedan` , Brake Lights`Shape_28bbac1d-2c99-4510-b71f-791304a1fc1e
+
+set_lighting on
+set_fogging on
+WRITE_REFERENCE_FRAME_SIZE
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577.par
+#BlueLink5 Animator: Camera Setup`Vehicle Pictures` Shape Preview` , Video Camera`Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577
+
+EXPORT_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+#BlueLink2 Animator: Shape File Link`Blurred Tire` Tires` , Tire for traffic vehicle`Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4
+
+
+#EMBEDDED_NOTES
+#The Animator: Vehicles and Sensor Targets screen is used to define animation shapes to be used with the animator.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { F-Class Vehicles } F-Class, Sedan
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : F-Class, Sedan
+#Category: F-Class Vehicles
+#FileID  : AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7
+#Product : CarSim 2020.0
+#VehCode Vehicle Shape
+
+END

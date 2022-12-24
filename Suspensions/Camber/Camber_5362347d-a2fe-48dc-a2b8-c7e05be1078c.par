@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Suspension: Camber Angle`Rear 5-Link - Camber Change`5-Link Rear
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+CAMBER_COMBINE ADD
+#DiagramOne0
+CAMBER_TABLE SPLINE
+-70, 1.66479
+-60, 1.43877
+-50, 1.21143
+-40, 0.981031
+-30, 0.746032
+-20, 0.505036
+-10, 0.25676
+0, 0
+10, -0.266403
+20, -0.543604
+30, -0.832791
+40, -1.13524
+50, -1.45237
+60, -1.78583
+70, -2.13754
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+
+
+#EMBEDDED_NOTES
+#Generic 5-Link rear Camber change vs. Jounce
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Camber Angle; { 5-Link Rear } Rear 5-Link - Camber Change
+#Library : Suspension: Camber Angle
+#DataSet : Rear 5-Link - Camber Change
+#Category: 5-Link Rear
+#FileID  : Camber_5362347d-a2fe-48dc-a2b8-c7e05be1078c
+#Product : CarSim 2020.0
+#VehCode Camber
+
+END

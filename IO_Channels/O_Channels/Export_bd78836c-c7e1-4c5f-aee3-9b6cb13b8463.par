@@ -1,0 +1,97 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Outputs`
+#RingCtrl0 2
+#RingCtrl1 1
+*README_FILE IO_Channels\O_Channels\Export_bd78836c-c7e1-4c5f-aee3-9b6cb13b8463_out_tab.txt
+
+
+EXPORT Xo
+EXPORT Yo
+EXPORT Zo
+EXPORT Vx_S1
+EXPORT Vy_S1
+EXPORT Vz_S1
+EXPORT Roll
+EXPORT Pitch
+EXPORT Yaw
+EXPORT X_L1
+EXPORT Y_L1
+EXPORT Z_L1
+EXPORT X_R1
+EXPORT Y_R1
+EXPORT Z_R1
+EXPORT X_L2
+EXPORT Y_L2
+EXPORT Z_L2
+EXPORT X_R2
+EXPORT Y_R2
+EXPORT Z_R2
+EXPORT Roll_L1
+EXPORT Rot_L1
+EXPORT Steer_L1
+EXPORT Roll_R1
+EXPORT Rot_R1
+EXPORT Steer_R1
+EXPORT Roll_L2
+EXPORT Rot_L2
+EXPORT Steer_L2
+EXPORT Roll_R2
+EXPORT Rot_R2
+EXPORT Steer_R2
+EXPORT Steer_SW
+EXPORT StrSWr_1
+EXPORT Ax
+EXPORT Ay
+#MiscYellow0
+#Number of Selected Channels: 37
+#CHN_NAME: Xo
+#CHN_NAME: Yo
+#CHN_NAME: Zo
+#CHN_NAME: Vx_S1
+#CHN_NAME: Vy_S1
+#CHN_NAME: Vz_S1
+#CHN_NAME: Roll
+#CHN_NAME: Pitch
+#CHN_NAME: Yaw
+#CHN_NAME: X_L1
+#CHN_NAME: Y_L1
+#CHN_NAME: Z_L1
+#CHN_NAME: X_R1
+#CHN_NAME: Y_R1
+#CHN_NAME: Z_R1
+#CHN_NAME: X_L2
+#CHN_NAME: Y_L2
+#CHN_NAME: Z_L2
+#CHN_NAME: X_R2
+#CHN_NAME: Y_R2
+#CHN_NAME: Z_R2
+#CHN_NAME: Roll_L1
+#CHN_NAME: Rot_L1
+#CHN_NAME: Steer_L1
+#CHN_NAME: Roll_R1
+#CHN_NAME: Rot_R1
+#CHN_NAME: Steer_R1
+#CHN_NAME: Roll_L2
+#CHN_NAME: Rot_L2
+#CHN_NAME: Steer_L2
+#CHN_NAME: Roll_R2
+#CHN_NAME: Rot_R2
+#CHN_NAME: Steer_R2
+#CHN_NAME: Steer_SW
+#CHN_NAME: StrSWr_1
+#CHN_NAME: Ax
+#CHN_NAME: Ay
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`AudiA8` Demo_PreScanCarSim` , example run`Run_0285cfdc-36ed-4e9c-8fd9-30a095102be4
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; Outputs
+#Library : I/O Channels: Export
+#DataSet : Outputs
+#Category: 
+#FileID  : Export_bd78836c-c7e1-4c5f-aee3-9b6cb13b8463
+#Product : CarSim 2020.0
+#VehCode Export Channels
+
+END

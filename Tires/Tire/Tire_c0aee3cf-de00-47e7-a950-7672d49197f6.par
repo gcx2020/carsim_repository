@@ -1,0 +1,74 @@
+PARSFILE
+#FullDataName Tire`225/60 R18_AudiA8`CS Touring Tires
+FZ_REF 8000
+X_LENGTH 358
+Z_LENGTH 358
+Y_LENGTH 225
+#CheckBox2 0    
+#CheckBox4 1    
+#CheckBox5 1    
+#CheckBox6 0    
+
+#RingCtrl0 1
+#RingCtrl5 2
+#RingCtrl6 2
+#RingCtrl7 1
+#RingCtrl8 1
+#RingCtrl9 2
+OPT_TIRE_LAG_KAPPA 2
+#RingCtrl10 1
+OPT_TIRE_LAG_ALPHA 1
+OPT_TIRE_MODEL 1
+
+PARSFILE Animator\STL_Groups\ShpGrp_b46bb8ca-2d76-4ce9-9459-7ed6afac0407.par
+#BlueLink4 Animator: Shape Assembly`Euro Sedan Tire` Tires` , Animator`ShpGrp_b46bb8ca-2d76-4ce9-9459-7ed6afac0407
+
+WRITE_WHEEL_OFFSET
+*SET_THICKNESS 225
+RRE 353
+R0 358
+FZ_TIRE_COEFFICIENT 278
+FZ_MAX 100000
+IT 0
+PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
+#BlueLink14 Generic Table`Lx Variable, Scaled to Tire` Tire Relaxation Length` , Longitudinal relaxation length`GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068
+
+PARSFILE Generic\tables\GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d.par
+#BlueLink15 Generic Table`Ly Variable, Scaled to Tire` Tire Relaxation Length` , Longitudinal relaxation length`GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d
+
+VLOW_KAPPA 2
+VLOW_ALPHA 2
+RR_C 0.0041
+RR_V 0.00003
+L_CONTACT_X_CONSTANT 105
+L_CONTACT_Y_CONSTANT 225
+RR_FX 1
+OPT_TIRE_COMB 1
+R_TIRE_COMB 1.1
+PARSFILE Tires\Mz\TireMz_3971c78d-cf7b-4b36-a498-fb3f5be41995.par
+#BlueLink0 Tire: Aligning Moment`225/60 R18` Touring Tires` , Aligning Moment`TireMz_3971c78d-cf7b-4b36-a498-fb3f5be41995
+
+PARSFILE Tires\Fy\TireFy_546b71a0-0127-4f2c-8fbd-755756778489.par
+#BlueLink1 Tire: Lateral Force`225/60 R18` Touring Tires` , Lateral Force`TireFy_546b71a0-0127-4f2c-8fbd-755756778489
+
+PARSFILE Tires\Fx\TireFx_d73d78fa-a1f8-487f-b612-c6e2ca83ab43.par
+#BlueLink2 Tire: Longitudinal Force`225/60 R18` Touring Tires` , Longitudinal Force`TireFx_d73d78fa-a1f8-487f-b612-c6e2ca83ab43
+
+PARSFILE Tires\Camber_Thrust\CamStiff_578741dd-1251-4c3d-bb6f-be0a0ca93952.par
+#BlueLink3 Tire: Camber Thrust Coefficient`225/60 R18` Touring Tires` , Camber Thrust`CamStiff_578741dd-1251-4c3d-bb6f-be0a0ca93952
+
+
+
+#EMBEDDED_NOTES
+#800 kg rated load
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Tire; { CS Touring Tires } 225/60 R18_AudiA8
+#Library : Tire
+#DataSet : 225/60 R18_AudiA8
+#Category: CS Touring Tires
+#FileID  : Tire_c0aee3cf-de00-47e7-a950-7672d49197f6
+#Product : CarSim 2020.0
+#VehCode Tire
+
+END

@@ -1,0 +1,10 @@
+PARSFILE
+search_path_append .
+search_path_append C:\software\Documents\Experiments\DynamicCarSim\
+search_path_append C:\software\CarSim\CarSim2020.0_Prog\Resources\
+search_path_append C:\software\CarSim\CarSim2020.0_Prog\
+search_path_append C:\software\CarSim\CarSim2020.0_Prog\Resources\Animator\Deprecated_Assets\
+set_run_slot 0
+PARSFILE Results\Run_0285cfdc-36ed-4e9c-8fd9-30a095102be4\Run_all.par
+FILEBASE Run_0285cfdc-36ed-4e9c-8fd9-30a095102be4
+END

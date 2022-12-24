@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`F-Class, Sedan Sprung Mass_AudiA8`CS F-Class
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+#CheckBox2 1    
+X_LENGTH 2947
+Y_LENGTH 1500
+iaxle 2
+iside 1
+symbol_push_or_set <<hitch_x>> -4.5
+symbol_push_or_set <<hitch_y>> 0
+symbol_push_or_set <<hitch_z>> 0.4
+LX_H 4500
+H_H 400
+Y_H 0
+LX_AXLE 2947
+LX_CG_SU 1265
+M_SU 1820
+IXX_SU 1023.8
+IYY_SU 3567.2
+IZZ_SU 4095.0
+IXZ_SU 0
+*RX 0.750
+*RY 1.400
+*RZ 1.500
+Y_CG_SU 0
+H_CG_SU 590
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1475
+Y_LENGTH 1870
+*HWC_LF 320
+*HWC_RF 320
+*HWC_LR 300
+*HWC_RR 300
+H_WC 300
+iside 2
+H_WC 300
+iaxle 1
+iside 1
+H_WC 320
+iside 2
+H_WC 320
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { CS F-Class } F-Class, Sedan Sprung Mass_AudiA8
+#Library : Vehicle: Sprung Mass
+#DataSet : F-Class, Sedan Sprung Mass_AudiA8
+#Category: CS F-Class
+#FileID  : SprMass_0a0c122f-1863-4ed9-962d-8873ee1c2273
+#Product : CarSim 2020.0
+#VehCode Rigid sprung mass
+
+END

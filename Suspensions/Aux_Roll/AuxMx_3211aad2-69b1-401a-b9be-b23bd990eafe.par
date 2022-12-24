@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName Suspension: Auxiliary Roll Moment`Linear 344 N-m/deg`
+#CheckBox0 0    
+
+#RingCtrl0 COEFFICIENT
+#RingCtrl1 CONSTANT
+#RingCtrl2 MULTIPLY
+MX_AUX_COMBINE MULTIPLY
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+MX_AUX_COEFFICIENT 344
+MX_AUX_FSTATIC_CONSTANT 1
+*SCALAR 344
+*SCALAR2 1
+
+
+LOG_ENTRY Used Dataset: Suspension: Auxiliary Roll Moment; Linear 344 N-m/deg
+#Library : Suspension: Auxiliary Roll Moment
+#DataSet : Linear 344 N-m/deg
+#Category: 
+#FileID  : AuxMx_3211aad2-69b1-401a-b9be-b23bd990eafe
+#Product : CarSim 2020.0
+#VehCode Aux. Roll Moment
+
+END

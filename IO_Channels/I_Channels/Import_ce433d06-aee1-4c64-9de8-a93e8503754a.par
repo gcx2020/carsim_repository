@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Inputs`
+#RingCtrl0 1
+#RingCtrl1 1
+*README_FILE IO_Channels\I_Channels\Import_ce433d06-aee1-4c64-9de8-a93e8503754a_imp_tab.txt
+
+#MiscYellow0
+IMP_STEER_SW Replace 0.0! 1
+IMP_THROTTLE_ENGINE Replace 0.0! 1
+IMP_PCON_BK Replace 0.0! 1
+IMP_DZDX_L1 Replace 0.0! 1
+IMP_DZDY_L1 Replace 0.0! 1
+IMP_ZGND_L1 Replace 0.0! 1
+IMP_DZDX_R1 Replace 0.0! 1
+IMP_DZDY_R1 Replace 0.0! 1
+IMP_ZGND_R1 Replace 0.0! 1
+IMP_DZDX_L2 Replace 0.0! 1
+IMP_DZDY_L2 Replace 0.0! 1
+IMP_ZGND_L2 Replace 0.0! 1
+IMP_DZDX_R2 Replace 0.0! 1
+IMP_DZDY_R2 Replace 0.0! 1
+IMP_ZGND_R2 Replace 0.0! 1
+IMP_MUX_L1 Replace 0.0! 1
+IMP_MUX_L2 Replace 0.0! 1
+IMP_MUX_R1 Replace 0.0! 1
+IMP_MUX_R2 Replace 0.0! 1
+IMP_MUY_L1 Replace 0.0! 1
+IMP_MUY_L2 Replace 0.0! 1
+IMP_MUY_R1 Replace 0.0! 1
+IMP_MUY_R2 Replace 0.0! 1
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`AudiA8` Demo_PreScanCarSim` , example run`Run_0285cfdc-36ed-4e9c-8fd9-30a095102be4
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; Inputs
+#Library : I/O Channels: Import
+#DataSet : Inputs
+#Category: 
+#FileID  : Import_ce433d06-aee1-4c64-9de8-a93e8503754a
+#Product : CarSim 2020.0
+#VehCode Import Channels
+
+END
